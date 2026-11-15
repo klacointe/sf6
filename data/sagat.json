@@ -1,0 +1,145 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>Altar of Gaming, 22 Jul. 2026 ; Kakuchopurei, 16 Jul. 2025</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://altarofgaming.com/character/sagat/street-fighter-6/moves/\">Altar of Gaming - Sagat Moves &amp; Combos</a> · <a href=\"https://www.kakuchopurei.com/2025/07/street-fighter-6-sagat-gameplay-trailer-release-date/\">Kakuchopurei - Sagat gameplay trailer</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Tiger Heavy Elbow",
+      "i": "6MP"
+    },
+    {
+      "n": "Tiger Monolith",
+      "i": "4HP"
+    },
+    {
+      "n": "Low Step Kick",
+      "i": "6LK"
+    },
+    {
+      "n": "High Step Kick",
+      "i": "6HK"
+    }
+  ],
+  "specials": [
+    {
+      "n": "High Tiger Shot",
+      "i": "236MP / 236HP",
+      "note": "Altar of Gaming: MP or HP; a Prima Games search snippet simply lists P",
+      "od": true,
+      "note_fr": "Altar of Gaming : MP ou HP ; un extrait de recherche Prima Games indique simplement P"
+    },
+    {
+      "n": "Low Tiger Shot",
+      "i": "236LP",
+      "od": true
+    },
+    {
+      "n": "Tiger Uppercut",
+      "i": "623P",
+      "note": "Heavy version is more powerful; chargeable according to a search snippet, unconfirmed",
+      "od": true,
+      "note_fr": "Version lourde plus puissante ; chargeable selon un extrait de recherche, non confirmé"
+    },
+    {
+      "n": "Tiger Knee Crush",
+      "i": "236K",
+      "note": "A search snippet gives 236P, which contradicts; Altar of Gaming reading kept",
+      "od": true,
+      "note_fr": "Un extrait de recherche donne 236P, contradictoire ; lecture Altar of Gaming conservée"
+    },
+    {
+      "n": "Tiger Nexus",
+      "i": "214K",
+      "od": true
+    },
+    {
+      "n": "Mighty Tiger",
+      "i": "6LK",
+      "note": "During Tiger Nexus",
+      "sub": true,
+      "note_fr": "Pendant Tiger Nexus"
+    },
+    {
+      "n": "Greedy Tiger",
+      "i": "6MK",
+      "note": "During Tiger Nexus",
+      "sub": true,
+      "note_fr": "Pendant Tiger Nexus"
+    },
+    {
+      "n": "Nova Tiger",
+      "i": "6HK",
+      "note": "During Tiger Nexus",
+      "sub": true,
+      "note_fr": "Pendant Tiger Nexus"
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Tiger Cannon",
+      "i": "236236P",
+      "lvl": "SA1"
+    },
+    {
+      "n": "Savage Tiger",
+      "i": "214214K",
+      "lvl": "SA2"
+    },
+    {
+      "n": "Savage Tiger Raid",
+      "i": "5",
+      "note": "During Savage Tiger (neutral)",
+      "lvl": "SA2",
+      "sub": true,
+      "note_fr": "Pendant Savage Tiger (neutre)"
+    },
+    {
+      "n": "Savage Tiger Zenith",
+      "i": "6",
+      "note": "During Savage Tiger",
+      "lvl": "SA2",
+      "sub": true,
+      "note_fr": "Pendant Savage Tiger"
+    },
+    {
+      "n": "Savage Tiger Pendulum",
+      "i": "4",
+      "note": "During Savage Tiger",
+      "lvl": "SA2",
+      "sub": true,
+      "note_fr": "Pendant Savage Tiger"
+    },
+    {
+      "n": "Savage Tiger Stomp",
+      "i": "2",
+      "note": "During Savage Tiger; single source",
+      "lvl": "SA2",
+      "sub": true,
+      "note_fr": "Pendant Savage Tiger ; une seule source"
+    },
+    {
+      "n": "Tiger Vanquisher",
+      "i": "236236K",
+      "lvl": "SA3"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>Altar of Gaming, 22 juil. 2026 ; Kakuchopurei, 16 juil. 2025</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://altarofgaming.com/character/sagat/street-fighter-6/moves/\">Altar of Gaming - Sagat Moves &amp; Combos</a> · <a href=\"https://www.kakuchopurei.com/2025/07/street-fighter-6-sagat-gameplay-trailer-release-date/\">Kakuchopurei - Sagat gameplay trailer</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

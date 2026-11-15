@@ -1,0 +1,143 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>Kakuchopurei (20 May 2023), GGRecon (2 June 2023)</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://kakuchopurei.com/2023/05/street-fighter-6-jamie-move-list-guide\">Kakuchopurei, Jamie Move List &amp; Guide</a> · <a href=\"https://www.ggrecon.com/guides/street-fighter-6-jamie-moves-combos-backstory/\">GGRecon, Jamie</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Tensei Kick",
+      "i": "2KK",
+      "note": "Kakuchopurei writes 2K+K; GGRecon: down + two kick buttons.",
+      "note_fr": "Kakuchopurei écrit 2K+K ; GGRecon : bas + deux boutons de pied."
+    },
+    {
+      "n": "Phantom Sway",
+      "i": "2HK > HK > P"
+    },
+    {
+      "n": "Falling Star Kick",
+      "i": "6MK"
+    },
+    {
+      "n": "Hermit's Elbow",
+      "i": "4HP",
+      "note": "The effect changes at drink level 3.",
+      "note_fr": "L'effet change au niveau de boisson 3."
+    },
+    {
+      "n": "Senei Kick",
+      "i": "6HK",
+      "note": "The effect changes at drink level 4.",
+      "note_fr": "L'effet change au niveau de boisson 4."
+    },
+    {
+      "n": "Bitter Strikes",
+      "i": "LP > LK > MP",
+      "note": "Drink level 1 minimum.",
+      "note_fr": "Niveau de boisson 1 minimum."
+    },
+    {
+      "n": "Full Moon Kick",
+      "i": "6MK > MK > P",
+      "note": "Drink level 2 minimum.",
+      "note_fr": "Niveau de boisson 2 minimum."
+    },
+    {
+      "n": "Intoxicated Assault",
+      "i": "4HP > HP > HK",
+      "note": "Drink level 3 minimum.",
+      "note_fr": "Niveau de boisson 3 minimum."
+    },
+    {
+      "n": "Ransui Haze",
+      "i": "6HK > 4HK > P",
+      "note": "Drink level 4; the last hit's effect depends on timing.",
+      "note_fr": "Niveau de boisson 4 ; l'effet du dernier coup dépend du timing."
+    }
+  ],
+  "specials": [
+    {
+      "n": "The Devil Inside",
+      "i": "22P",
+      "note": "Hold to extend; raises the drink level. No OD version cited.",
+      "note_fr": "Maintenir pour prolonger ; fait monter le niveau de boisson. Aucune version OD citée."
+    },
+    {
+      "n": "Freeflow Strikes",
+      "i": "236P > 6P > 6P"
+    },
+    {
+      "n": "Freeflow Kicks",
+      "i": "236P > 6K > 6K"
+    },
+    {
+      "n": "Swagger Step",
+      "i": "214P"
+    },
+    {
+      "n": "Swagger Hermit Punch",
+      "i": "214P > 6P",
+      "sub": true,
+      "note": "Follow-up to Swagger Step; drink level 4 according to Kakuchopurei.",
+      "note_fr": "Suite de Swagger Step ; niveau de boisson 4 selon Kakuchopurei."
+    },
+    {
+      "n": "Arrow Kick",
+      "i": "623K"
+    },
+    {
+      "n": "Luminous Dive Kick",
+      "i": "214K",
+      "air": true,
+      "note": "While jumping; drink level 1 minimum.",
+      "note_fr": "En saut ; niveau de boisson 1 minimum."
+    },
+    {
+      "n": "Bakkai",
+      "i": "236K",
+      "note": "Drink level 2 minimum.",
+      "note_fr": "Niveau de boisson 2 minimum."
+    },
+    {
+      "n": "Tenshin",
+      "i": "63214K",
+      "note": "Grab; drink level 3 minimum.",
+      "note_fr": "Prise ; niveau de boisson 3 minimum."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Breakin",
+      "lvl": "SA1",
+      "i": "236236K"
+    },
+    {
+      "n": "The Devil's Song",
+      "lvl": "SA2",
+      "i": "214214P"
+    },
+    {
+      "n": "Getsuga Saiho",
+      "lvl": "SA3",
+      "i": "236236P"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>Kakuchopurei (20 mai 2023), GGRecon (2 juin 2023)</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://kakuchopurei.com/2023/05/street-fighter-6-jamie-move-list-guide\">Kakuchopurei, Jamie Move List &amp; Guide</a> · <a href=\"https://www.ggrecon.com/guides/street-fighter-6-jamie-moves-combos-backstory/\">GGRecon, Jamie</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

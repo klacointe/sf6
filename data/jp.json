@@ -1,0 +1,129 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon, 3 June 2023 ; Kakuchopurei, May 2023</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-jp-character-guide/\">GGRecon - How to play JP in Street Fighter 6</a> · <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-jp-move-list-guide\">Kakuchopurei - SF6 JP Move List &amp; Guide</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Guillotinna",
+      "i": "6MK"
+    },
+    {
+      "n": "Malice",
+      "i": "3HP",
+      "note": "Low attack, special-cancelable (Kakuchopurei).",
+      "note_fr": "Coup bas, annulable en spécial (Kakuchopurei)."
+    },
+    {
+      "n": "Bylina",
+      "i": "6HK",
+      "note": "Launcher kick, special-cancelable (Kakuchopurei).",
+      "note_fr": "Coup de pied lanceur, annulable en spécial (Kakuchopurei)."
+    },
+    {
+      "n": "Grom Strelka",
+      "i": "4MP > MP",
+      "note": "Special-cancelable (Kakuchopurei).",
+      "note_fr": "Annulable en spécial (Kakuchopurei)."
+    },
+    {
+      "n": "Zilant",
+      "i": "HK > HP",
+      "note": "Target combo, special-cancelable (Kakuchopurei).",
+      "note_fr": "Target combo, annulable en spécial (Kakuchopurei)."
+    },
+    {
+      "n": "Zilant Mid",
+      "i": "HK > HP > HP",
+      "sub": true
+    },
+    {
+      "n": "Zilant Low",
+      "i": "HK > HP > HK",
+      "sub": true
+    }
+  ],
+  "specials": [
+    {
+      "n": "Triglav",
+      "i": "22P"
+    },
+    {
+      "n": "Stribog",
+      "i": "236P"
+    },
+    {
+      "n": "Departure",
+      "i": "214P"
+    },
+    {
+      "n": "Departure: Window",
+      "i": "214LP / 214MP",
+      "sub": true,
+      "note": "While Departure is active: teleports to the portals.",
+      "note_fr": "Pendant que Departure est actif : téléportation vers les portails."
+    },
+    {
+      "n": "Departure: Shadow",
+      "i": "214HP",
+      "sub": true,
+      "note": "While Departure is active: activates the spikes.",
+      "note_fr": "Pendant que Departure est actif : active les pointes."
+    },
+    {
+      "n": "Amnesia",
+      "i": "22K",
+      "note": "Counter.",
+      "note_fr": "Contre."
+    },
+    {
+      "n": "Torbalan",
+      "i": "236K"
+    },
+    {
+      "n": "Embrace",
+      "i": "214K"
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Chornobog",
+      "lvl": "SA1",
+      "i": "236236P",
+      "note": "Level not specified by the sources: list order.",
+      "note_fr": "Niveau non précisé par les sources : ordre de la liste."
+    },
+    {
+      "n": "Lovushka",
+      "lvl": "SA2",
+      "i": "214214P",
+      "note": "Level not specified by the sources: list order.",
+      "note_fr": "Niveau non précisé par les sources : ordre de la liste."
+    },
+    {
+      "n": "Interdiction",
+      "lvl": "SA3",
+      "i": "236236K",
+      "note": "Level not specified by the sources: list order.",
+      "note_fr": "Niveau non précisé par les sources : ordre de la liste."
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon, 3 juin 2023 ; Kakuchopurei, mai 2023</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-jp-character-guide/\">GGRecon - How to play JP in Street Fighter 6</a> · <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-jp-move-list-guide\">Kakuchopurei - SF6 JP Move List &amp; Guide</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

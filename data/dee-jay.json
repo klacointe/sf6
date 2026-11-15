@@ -1,0 +1,187 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon, 8 June 2023 ; Kakuchopurei, 17 May 2023</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-dee-jay-character-guide/\">GGRecon - How to play Dee Jay in Street Fighter 6</a> · <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-dee-jay-move-list-guide\">Kakuchopurei - SF6 Dee Jay Move List &amp; Guide</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Knee Shot",
+      "i": "j.2LK",
+      "note": "During a forward jump.",
+      "note_fr": "Pendant un saut avant."
+    },
+    {
+      "n": "Sunrise Heal",
+      "i": "6MK",
+      "note": "Kakuchopurei writes Sunrise Heel.",
+      "note_fr": "Kakuchopurei écrit Sunrise Heel."
+    },
+    {
+      "n": "Face Breaker",
+      "i": "4HK"
+    },
+    {
+      "n": "Threebeat Combo",
+      "i": "LP > MK > MK"
+    },
+    {
+      "n": "Dee Jack Special",
+      "i": "MP > HP > HK",
+      "note": "Kakuchopurei writes Dee Jay Special.",
+      "note_fr": "Kakuchopurei écrit Dee Jay Special."
+    },
+    {
+      "n": "Funky Dance",
+      "i": "MP > MP > HP"
+    },
+    {
+      "n": "Funky Dancy Feint",
+      "i": "MP > MP > 4HP",
+      "note": "Kakuchopurei writes Funky Dance Feint.",
+      "note_fr": "Kakuchopurei écrit Funky Dance Feint."
+    },
+    {
+      "n": "Party in the Air",
+      "i": "j.MP > HP",
+      "air": true,
+      "note": "During a jump.",
+      "note_fr": "Pendant un saut."
+    },
+    {
+      "n": "Speedy Maracas",
+      "i": "22P > P",
+      "note": "GGRecon: down, down + P, P; Kakuchopurei: 22PP. Reading retained: GGRecon.",
+      "note_fr": "GGRecon : bas, bas + P, P ; Kakuchopurei : 22PP. Lecture retenue : GGRecon."
+    }
+  ],
+  "specials": [
+    {
+      "n": "Air Slasher",
+      "i": "[4]6P"
+    },
+    {
+      "n": "Jackknife Maximum",
+      "i": "[2]8K"
+    },
+    {
+      "n": "Roll Through Feint",
+      "i": "236LK"
+    },
+    {
+      "n": "Quick Rolling Sobat",
+      "i": "236MK"
+    },
+    {
+      "n": "Double Rolling Sobat",
+      "i": "236HK"
+    },
+    {
+      "n": "Machine Gun Uppercut",
+      "i": "214P"
+    },
+    {
+      "n": "Jus Cool",
+      "i": "214K"
+    },
+    {
+      "n": "Funky Slicer",
+      "i": "LK",
+      "sub": true,
+      "note": "Follow-up to Jus Cool (GGRecon).",
+      "note_fr": "Suite de Jus Cool (GGRecon)."
+    },
+    {
+      "n": "Waning Moon",
+      "i": "MK",
+      "sub": true,
+      "note": "Follow-up to Jus Cool (GGRecon).",
+      "note_fr": "Suite de Jus Cool (GGRecon)."
+    },
+    {
+      "n": "Jus Cool: HK",
+      "i": "HK",
+      "sub": true,
+      "note": "Follow-up to Jus Cool cited by Kakuchopurei only, unnamed.",
+      "note_fr": "Suite de Jus Cool citée par Kakuchopurei seulement, sans nom."
+    },
+    {
+      "n": "Juggling Dash",
+      "i": "6P",
+      "sub": true,
+      "note": "Follow-up to Jus Cool (Kakuchopurei only).",
+      "note_fr": "Suite de Jus Cool (Kakuchopurei seulement)."
+    },
+    {
+      "n": "Juggling Dash: backdash",
+      "i": "6P > 4P",
+      "sub": true,
+      "note": "Kakuchopurei only: 4P after Juggling Dash.",
+      "note_fr": "Kakuchopurei seulement : 4P après Juggling Dash."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "The Greatest Sobat",
+      "lvl": "SA1",
+      "i": "236236K"
+    },
+    {
+      "n": "Lowkey Sunrise Festival",
+      "lvl": "SA2",
+      "i": "236236LP > LP > MP > HP > LK > MK > HK",
+      "note": "Three versions depending on the initial button (LP, MP, HP). Kakuchopurei writes Marvelous.",
+      "note_fr": "Trois versions selon le bouton initial (LP, MP, HP). Kakuchopurei écrit Marvelous."
+    },
+    {
+      "n": "Marvellous Sunrise Festival",
+      "lvl": "SA2",
+      "i": "236236MP > LP > MP > HP > LK > MK > HK",
+      "sub": true
+    },
+    {
+      "n": "Headliner Sunrise Festival",
+      "lvl": "SA2",
+      "i": "236236HP > LP > MP > HP > LK > MK > HK",
+      "sub": true
+    },
+    {
+      "n": "Climactic Strike",
+      "lvl": "SA2",
+      "i": "HP",
+      "sub": true,
+      "note": "Follow-up if Marvellous or Headliner connects (GGRecon). Kakuchopurei: optional HP or HK finisher.",
+      "note_fr": "Suite si Marvellous ou Headliner touche (GGRecon). Kakuchopurei : finisseur HP ou HK optionnel."
+    },
+    {
+      "n": "Encore Beat",
+      "lvl": "SA2",
+      "i": "HK",
+      "sub": true,
+      "note": "Follow-up if Marvellous or Headliner connects (GGRecon).",
+      "note_fr": "Suite si Marvellous ou Headliner touche (GGRecon)."
+    },
+    {
+      "n": "Weekend Pleasure",
+      "lvl": "SA3",
+      "i": "214214P"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon, 8 juin 2023 ; Kakuchopurei, 17 mai 2023</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-dee-jay-character-guide/\">GGRecon - How to play Dee Jay in Street Fighter 6</a> · <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-dee-jay-move-list-guide\">Kakuchopurei - SF6 Dee Jay Move List &amp; Guide</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

@@ -1,0 +1,103 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon (2 June 2023), Kakuchopurei (4 May 2023)</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://ggrecon.com/guides/street-fighter-6-manon-character-guide\">GGRecon, Manon</a> · <a href=\"https://www.kakuchopurei.com/?p=175002\">Kakuchopurei, Manon Move List &amp; Guide</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Révérence",
+      "i": "4HP"
+    },
+    {
+      "n": "Tomoe Derrière",
+      "i": "3HK",
+      "note": "Launcher.",
+      "note_fr": "Lanceur."
+    },
+    {
+      "n": "À Terre",
+      "i": "MP > MK"
+    },
+    {
+      "n": "En Haut",
+      "i": "4MK > MK",
+      "note": "The second hit is an overhead.",
+      "note_fr": "Le second coup est un overhead."
+    },
+    {
+      "n": "Temps Lié",
+      "i": "HP > HP"
+    },
+    {
+      "n": "Allongé",
+      "i": "2HP > HP"
+    }
+  ],
+  "specials": [
+    {
+      "n": "Manège Doré",
+      "i": "63214P",
+      "note": "Command grab; gives a medal level.",
+      "note_fr": "Prise de commande ; donne un niveau de médaille."
+    },
+    {
+      "n": "Rond-point",
+      "i": "236K"
+    },
+    {
+      "n": "Dégagé",
+      "i": "214K",
+      "od": true,
+      "note": "Low LK, lunging MK, overhead HK (Kakuchopurei).",
+      "note_fr": "LK bas, MK fente, HK overhead (Kakuchopurei)."
+    },
+    {
+      "n": "Renversé",
+      "i": "236P",
+      "note": "Grab; gives a medal level.",
+      "note_fr": "Prise ; donne un niveau de médaille."
+    },
+    {
+      "n": "Grand Fouetté",
+      "i": "K",
+      "sub": true,
+      "note": "Follow-up to Renversé (K during the move).",
+      "note_fr": "Suite de Renversé (K pendant le coup)."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Arabesque",
+      "lvl": "SA1",
+      "i": "236236K"
+    },
+    {
+      "n": "Étoile",
+      "lvl": "SA2",
+      "i": "214214K"
+    },
+    {
+      "n": "Pas de Deux",
+      "lvl": "SA3",
+      "i": "236236P"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon (2 juin 2023), Kakuchopurei (4 mai 2023)</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://ggrecon.com/guides/street-fighter-6-manon-character-guide\">GGRecon, Manon</a> · <a href=\"https://www.kakuchopurei.com/?p=175002\">Kakuchopurei, Manon Move List &amp; Guide</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

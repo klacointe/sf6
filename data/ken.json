@@ -1,0 +1,120 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon, 2 June 2023</b> and <b>The Loadout, 10 Oct. 2022</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-ken-moves-combos-backstory/\">GGRecon — Here’s how you play Ken in Street Fighter 6</a> (inputs) ; <a href=\"https://www.theloadout.com/street-fighter-6/ken-guide\">The Loadout — Ken guide</a> (Quick Dash and Jinrai Kick follow-ups). Articles predate the patches: Ken’s inputs are not yet confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Chin Buster",
+      "i": "MP > HP",
+      "note": "Target combo.",
+      "note_fr": "Target combo."
+    },
+    {
+      "n": "Triple Flash Kicks",
+      "i": "MK > MK > HK",
+      "note": "Target combo.",
+      "note_fr": "Target combo."
+    }
+  ],
+  "specials": [
+    {
+      "n": "Hadoken",
+      "od": true,
+      "i": "236P"
+    },
+    {
+      "n": "Shoryuken",
+      "od": true,
+      "i": "623P"
+    },
+    {
+      "n": "Tatsumaki Senpu-kyaku",
+      "od": true,
+      "i": "214K"
+    },
+    {
+      "n": "Dragonlash Kick",
+      "od": true,
+      "i": "623K"
+    },
+    {
+      "n": "Jinrai Kick",
+      "od": true,
+      "i": "236K",
+      "note": "Follow-ups below according to The Loadout (Oct. 2022).",
+      "note_fr": "Suites ci-dessous selon The Loadout (oct. 2022)."
+    },
+    {
+      "n": "Low follow-up (opponent blocks crouching)",
+      "sub": true,
+      "i": "6LK",
+      "n_fr": "Suite basse (adversaire garde accroupi)"
+    },
+    {
+      "n": "High follow-up (opponent blocks standing)",
+      "sub": true,
+      "i": "6MK",
+      "n_fr": "Suite haute (adversaire garde debout)"
+    },
+    {
+      "n": "Quick Dash",
+      "i": "KK",
+      "note": "Two kicks at the same time (GGRecon). A kick follow-up lets you continue the run.",
+      "note_fr": "Deux pieds en même temps (GGRecon). Une suite au pied permet de continuer la course."
+    },
+    {
+      "n": "Forward Step Kick",
+      "sub": true,
+      "i": "HK",
+      "note": "During the Quick Dash (The Loadout).",
+      "note_fr": "Pendant le Quick Dash (The Loadout)."
+    },
+    {
+      "n": "Thunder Kick",
+      "sub": true,
+      "i": "MK",
+      "note": "Overhead, during the Quick Dash (The Loadout).",
+      "note_fr": "Overhead, pendant le Quick Dash (The Loadout)."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Dragonlash Flame",
+      "lvl": "SA1",
+      "i": "214214K",
+      "note": "Sources disagree on the input (214214K per GGRecon).",
+      "note_fr": "Sources divergentes sur la manipulation (214214K chez GGRecon)."
+    },
+    {
+      "n": "Shippu Jinrai-kyaku",
+      "lvl": "SA2",
+      "i": "236236K"
+    },
+    {
+      "n": "Shinryu Reppa",
+      "lvl": "SA3",
+      "i": "236236P",
+      "note": "More powerful version at low health (threshold not specified by the sources).",
+      "note_fr": "Version plus puissante à faible vie (seuil non précisé par les sources)."
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon, 2 juin 2023</b> et <b>The Loadout, 10 oct. 2022</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-ken-moves-combos-backstory/\">GGRecon — Here’s how you play Ken in Street Fighter 6</a> (manipulations) ; <a href=\"https://www.theloadout.com/street-fighter-6/ken-guide\">The Loadout — Ken guide</a> (suites de Quick Dash et de Jinrai Kick). Articles antérieurs aux patchs : les manipulations de Ken ne sont pas encore confirmées par des captures du jeu. Épreuves de combo : à venir."
+}

@@ -1,0 +1,162 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon (7 June 2023) and Kakuchopurei (22 May 2023)</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://ggrecon.com/guides/street-fighter-6-dhalsim-character-guide\">GGRecon, Dhalsim (7 June 2023)</a> ; <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-dhalsim-move-list-guide\">Kakuchopurei, Dhalsim (22 May 2023)</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Yoga Uppercut",
+      "i": "4MP",
+      "note": "Anti-air.",
+      "note_fr": "Anti-aérien."
+    },
+    {
+      "n": "Yoga Lance",
+      "i": "4HP",
+      "note": "Diagonal anti-air.",
+      "note_fr": "Anti-aérien diagonal."
+    },
+    {
+      "n": "Nirvana Punch",
+      "i": "1HP",
+      "note": "Low attack.",
+      "note_fr": "Coup bas."
+    },
+    {
+      "n": "Agile Kick",
+      "i": "1LK",
+      "note": "Disagreement: GGRecon LK, Kakuchopurei LP. LK reading retained.",
+      "note_fr": "Désaccord : GGRecon LK, Kakuchopurei LP. Lecture LK retenue."
+    },
+    {
+      "n": "Divine Kick",
+      "i": "4MK"
+    },
+    {
+      "n": "Thrust Kick",
+      "i": "1MK",
+      "note": "Low attack.",
+      "note_fr": "Coup bas."
+    },
+    {
+      "n": "Yoga Mountain",
+      "i": "4HK",
+      "note": "Disagreement: GGRecon 4HK, Kakuchopurei 4HP (same as Yoga Lance). HK retained.",
+      "note_fr": "Désaccord : GGRecon 4HK, Kakuchopurei 4HP (identique à Yoga Lance). HK retenu."
+    },
+    {
+      "n": "Karma Kick",
+      "i": "1HK",
+      "note": "Sweep, causes a knockdown.",
+      "note_fr": "Balayage, projette au sol."
+    },
+    {
+      "n": "Yoga Mummy",
+      "i": "j.2LP"
+    },
+    {
+      "n": "Drill Kick",
+      "i": "j.2K",
+      "note": "Mentioned by Kakuchopurei only; trajectory depends on strength.",
+      "note_fr": "Mentionné par Kakuchopurei uniquement ; trajectoire selon la force."
+    }
+  ],
+  "specials": [
+    {
+      "n": "Yoga Fire",
+      "i": "236P",
+      "od": true,
+      "note": "GGRecon gives an incorrect input (same as Yoga Arch); Kakuchopurei used.",
+      "note_fr": "GGRecon donne une entrée erronée (identique à Yoga Arch) ; Kakuchopurei utilisé."
+    },
+    {
+      "n": "Yoga Arch",
+      "i": "236K",
+      "od": true,
+      "note": "Arcing fireball.",
+      "note_fr": "Boule de feu en arc."
+    },
+    {
+      "n": "Yoga Flame",
+      "i": "63214P",
+      "od": true,
+      "note": "Combo ender.",
+      "note_fr": "Fin de combo."
+    },
+    {
+      "n": "Yoga Blast",
+      "i": "63214K",
+      "od": true,
+      "note": "Anti-air and combo ender; the OD version can juggle according to Kakuchopurei.",
+      "note_fr": "Anti-aérien et fin de combo ; la version OD peut juggler selon Kakuchopurei."
+    },
+    {
+      "n": "Yoga Comet",
+      "i": "j.63214P",
+      "air": true,
+      "note": "Downward fireball in the air.",
+      "note_fr": "Boule de feu descendante en l'air."
+    },
+    {
+      "n": "Yoga Float",
+      "i": "2PP / 3PP",
+      "note": "Disagreement: GGRecon gives KK (down or down-forward + K, K).",
+      "note_fr": "Désaccord : GGRecon indique KK (bas ou bas-avant + K, K)."
+    },
+    {
+      "n": "Aerial Yoga Float",
+      "i": "j.2KK",
+      "air": true
+    },
+    {
+      "n": "Yoga Teleport",
+      "i": "4PPP / 4KKK / 6PPP / 6KKK",
+      "note": "Back or forward + three P or three K.",
+      "note_fr": "Arrière ou avant + trois P ou trois K."
+    },
+    {
+      "n": "Aerial Yoga Teleport",
+      "i": "j.4PPP / j.4KKK / j.6PPP / j.6KKK",
+      "air": true
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Yoga Inferno",
+      "lvl": "SA1",
+      "i": "236236P"
+    },
+    {
+      "n": "Yoga Sunburst",
+      "lvl": "SA2",
+      "i": "214214K [hold]",
+      "note": "Holding K changes the effect (Kakuchopurei).",
+      "note_fr": "Maintenir K change l'effet (Kakuchopurei)."
+    },
+    {
+      "n": "Merciless Yoga",
+      "lvl": "SA3",
+      "i": "236236K",
+      "note": "Critical Art.",
+      "note_fr": "Critical Art."
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon (7 juin 2023) et Kakuchopurei (22 mai 2023)</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://ggrecon.com/guides/street-fighter-6-dhalsim-character-guide\">GGRecon, Dhalsim (7 juin 2023)</a> ; <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-dhalsim-move-list-guide\">Kakuchopurei, Dhalsim (22 mai 2023)</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

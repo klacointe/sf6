@@ -1,0 +1,129 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>Altar of Gaming, 15 Jul. 2026 ; EventHubs, undated ; Game Rant, 1 March 2024</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://altarofgaming.com/character/ed/street-fighter-6/moves/\">Altar of Gaming - Ed Moves &amp; Combos</a> · <a href=\"https://eventhubs.com/moves/sf6/ed/\">EventHubs - Ed moves</a> · <a href=\"https://gamerant.com/street-fighter-6-sf6-how-play-ed-move-list-combos-tips-strategies-more/\">Game Rant - How to Play Ed</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Cobra Punch",
+      "i": "6HP"
+    },
+    {
+      "n": "Psycho Knuckle",
+      "i": "HP [hold]",
+      "note": "Hold to change the effect",
+      "note_fr": "Maintenir pour changer l'effet"
+    },
+    {
+      "n": "Flicker Combination",
+      "i": "LK > LK > LK"
+    },
+    {
+      "n": "Body Blow Combination",
+      "i": "MP > HP"
+    },
+    {
+      "n": "Hitman Combination",
+      "i": "MK > MK > HP",
+      "note": "EventHubs: MK > MK > HP; Altar of Gaming: MK > HP, uncertain reading",
+      "note_fr": "EventHubs : MK > MK > HP ; Altar of Gaming : MK > HP, lecture incertaine"
+    },
+    {
+      "n": "Low Smash Combination",
+      "i": "2HK > HP"
+    }
+  ],
+  "specials": [
+    {
+      "n": "Psycho Spark",
+      "i": "236P",
+      "od": true
+    },
+    {
+      "n": "Psycho Shoot",
+      "i": "6P",
+      "note": "During Psycho Spark; EventHubs describes it as a forward + P movement, uncertain reading",
+      "od": true,
+      "sub": true,
+      "note_fr": "Pendant Psycho Spark ; EventHubs la décrit comme un mouvement avant + P, lecture incertaine"
+    },
+    {
+      "n": "Psycho Uppercut",
+      "i": "623P",
+      "od": true
+    },
+    {
+      "n": "Psycho Blitz",
+      "i": "214P",
+      "od": true
+    },
+    {
+      "n": "Psycho Flicker",
+      "i": "236K",
+      "note": "Hold K to change the effect",
+      "od": true,
+      "note_fr": "Maintenir K pour changer l'effet"
+    },
+    {
+      "n": "Kill Rush (Forward)",
+      "i": "6K",
+      "note": "Uncertain reading: sources disagree (EventHubs: no input or forward, back + K)",
+      "note_fr": "Lecture incertaine : sources divergentes (EventHubs : sans input ou avant, arrière + K)"
+    },
+    {
+      "n": "Kill Switch Break",
+      "i": "6P",
+      "note": "First half of the forward Kill Rush; uncertain reading",
+      "sub": true,
+      "note_fr": "Première moitié du Kill Rush avant ; lecture incertaine"
+    },
+    {
+      "n": "Kill Switch Chaser",
+      "i": "6P",
+      "note": "Second half of the forward Kill Rush (timing); uncertain reading",
+      "sub": true,
+      "note_fr": "Seconde moitié du Kill Rush avant (timing) ; lecture incertaine"
+    },
+    {
+      "n": "Kill Rush (Backward)",
+      "i": "4K",
+      "note": "Uncertain reading: sources disagree",
+      "note_fr": "Lecture incertaine : sources divergentes"
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Psycho Storm",
+      "i": "236236K",
+      "lvl": "SA1"
+    },
+    {
+      "n": "Psycho Cannon",
+      "i": "214214P",
+      "lvl": "SA2"
+    },
+    {
+      "n": "Psycho Chamber",
+      "i": "236236P",
+      "lvl": "SA3"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>Altar of Gaming, 15 juil. 2026 ; EventHubs, sans date ; Game Rant, 1 mars 2024</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://altarofgaming.com/character/ed/street-fighter-6/moves/\">Altar of Gaming - Ed Moves &amp; Combos</a> · <a href=\"https://eventhubs.com/moves/sf6/ed/\">EventHubs - Ed moves</a> · <a href=\"https://gamerant.com/street-fighter-6-sf6-how-play-ed-move-list-combos-tips-strategies-more/\">Game Rant - How to Play Ed</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

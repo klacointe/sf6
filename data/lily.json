@@ -1,0 +1,104 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon (14 June 2023) and Kakuchopurei (3 May 2023)</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-lily-moves-combos-backstory/\">GGRecon, How to play Lily (14 June 2023, Classic controls)</a>, <a href=\"https://kakuchopurei.com/2023/05/street-fighter-6-lily-move-list-guide\">Kakuchopurei, Lily Move List &amp; Guide (3 May 2023)</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Ridge Thrust",
+      "i": "3HP",
+      "note": "Kakuchopurei: 3HP; GGRecon: down/forward + HK (sources disagree).",
+      "note_fr": "Kakuchopurei : 3HP ; GGRecon : bas/avant + HK (désaccord)."
+    },
+    {
+      "n": "Horn Breaker",
+      "i": "4HP",
+      "note": "Overhead.",
+      "note_fr": "Overhead."
+    },
+    {
+      "n": "Great Spin",
+      "i": "j.2HP",
+      "note": "Kakuchopurei: while jumping; GGRecon: down + HP with no mention of the jump.",
+      "note_fr": "Kakuchopurei : en saut ; GGRecon : bas + HP sans mention du saut."
+    },
+    {
+      "n": "Double Arrow",
+      "i": "j.MP > MP",
+      "note": "While jumping.",
+      "note_fr": "En saut."
+    },
+    {
+      "n": "Desert Storm",
+      "i": "6HP > HP > HP",
+      "note": "Last hit is a launcher.",
+      "note_fr": "Dernier coup lanceur."
+    }
+  ],
+  "specials": [
+    {
+      "n": "Condor Wind",
+      "i": "214P"
+    },
+    {
+      "n": "Condor Spire",
+      "i": "236K"
+    },
+    {
+      "n": "Tomahawk Buster",
+      "i": "623P"
+    },
+    {
+      "n": "Condor Dive",
+      "i": "j.PP",
+      "note": "Two punches in a neutral or forward jump. OD: three punches (PPP), also from Tomahawk Buster. Two punches at the same time (while jumping); the OD version uses three punches.",
+      "od": true,
+      "note_fr": "Deux poings en saut neutre ou avant. OD : trois poings (PPP), aussi depuis Tomahawk Buster. Deux poings en même temps (en saut) ; la version OD se fait avec trois poings."
+    },
+    {
+      "n": "Mexican Typhoon",
+      "i": "412369P",
+      "note": "Command grab: full stick rotation + P (GGRecon: clockwise). Full stick rotation (360°), noted 412369.",
+      "note_fr": "Prise de commande : rotation complète du stick + P (GGRecon : sens horaire). Rotation complète du stick (360°), notée 412369."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Breezing Hawk",
+      "i": "236236P",
+      "lvl": "SA1"
+    },
+    {
+      "n": "Thunderbird",
+      "i": "236236K",
+      "note": "Usable in the air (Soaring Thunderbird per GGRecon).",
+      "lvl": "SA2",
+      "note_fr": "Utilisable en l'air (Soaring Thunderbird chez GGRecon)."
+    },
+    {
+      "n": "Raging Typhoon",
+      "i": "214214P",
+      "note": "Input: GGRecon and Kakuchopurei 214214P.",
+      "lvl": "SA3",
+      "note_fr": "Entrée : GGRecon et Kakuchopurei 214214P."
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon (14 juin 2023) et Kakuchopurei (3 mai 2023)</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-lily-moves-combos-backstory/\">GGRecon, How to play Lily (14 juin 2023, contrôles classiques)</a>, <a href=\"https://kakuchopurei.com/2023/05/street-fighter-6-lily-move-list-guide\">Kakuchopurei, Lily Move List &amp; Guide (3 mai 2023)</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

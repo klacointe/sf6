@@ -1,0 +1,114 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon, 2 June 2023 ; Kakuchopurei, 20 May 2023</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-juri-character-guide/\">GGRecon - Here's how you play Juri in Street Fighter 6</a> · <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-juri-move-list-guide\">Kakuchopurei - SF6 Juri Move List &amp; Guide</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Kyosesho",
+      "i": "6MP",
+      "note": "Special-cancelable (Kakuchopurei).",
+      "note_fr": "Annulable en spécial (Kakuchopurei)."
+    },
+    {
+      "n": "Senkai Kick",
+      "i": "6MK",
+      "note": "Sources disagree: GGRecon lists forward + MK, Kakuchopurei lists 4MK. Reading used: GGRecon.",
+      "note_fr": "Désaccord : GGRecon indique avant + MK, Kakuchopurei indique 4MK. Lecture retenue : GGRecon."
+    },
+    {
+      "n": "Renko Kicks",
+      "i": "6HK",
+      "note": "Sources disagree: GGRecon lists forward + HK, Kakuchopurei lists 6HP. Reading used: GGRecon.",
+      "note_fr": "Désaccord : GGRecon indique avant + HK, Kakuchopurei indique 6HP. Lecture retenue : GGRecon."
+    },
+    {
+      "n": "Korenzan",
+      "i": "4HK",
+      "note": "GGRecon: back + HK. Kakuchopurei writes '4HK, MP >MP' (probably mixed up with Death Crest).",
+      "note_fr": "GGRecon : arrière + HK. Kakuchopurei écrit '4HK, MP >MP' (probablement mélangé avec Death Crest)."
+    },
+    {
+      "n": "Death Crest",
+      "i": "MP > 4HP > HP",
+      "note": "Kakuchopurei: MP>4HP>HP; GGRecon: MP then back + HP then HP.",
+      "note_fr": "Kakuchopurei : MP>4HP>HP ; GGRecon : MP puis arrière + HP puis HP."
+    }
+  ],
+  "specials": [
+    {
+      "n": "Fuhajin",
+      "i": "214K"
+    },
+    {
+      "n": "Saihasho",
+      "i": "236LK"
+    },
+    {
+      "n": "Ankensatsu",
+      "i": "236MK"
+    },
+    {
+      "n": "Go Ohsatsu",
+      "i": "236HK"
+    },
+    {
+      "n": "Tensenin",
+      "i": "623P",
+      "note": "Sources disagree: GGRecon lists forward, down, down-forward + P (623P), Kakuchopurei (name Tensenrin) lists 236P. Reading used: GGRecon.",
+      "note_fr": "Désaccord : GGRecon indique avant, bas, bas-avant + P (623P), Kakuchopurei (nom Tensenrin) indique 236P. Lecture retenue : GGRecon."
+    },
+    {
+      "n": "Shiku-Sen",
+      "i": "j.214K",
+      "air": true,
+      "note": "Kakuchopurei specifies: during a forward jump. GGRecon writes 214K with no mention of the jump (identical to Fuhajin), probably an error.",
+      "note_fr": "Kakuchopurei précise : pendant un saut avant. GGRecon écrit 214K sans mention du saut (identique à Fuhajin), probablement une erreur."
+    },
+    {
+      "n": "Shiren-Sen",
+      "i": "j.214K > K",
+      "air": true,
+      "sub": true,
+      "note": "Follow-up after Shiku-Sen (GGRecon: K after Shiku-Sen; Kakuchopurei: 214K+K, name spelled Shiru-sen).",
+      "note_fr": "Suite après Shiku-Sen (GGRecon : K après Shiku-Sen ; Kakuchopurei : 214K+K, nom écrit Shiru-sen)."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Sakkai Fuhazan",
+      "lvl": "SA1",
+      "i": "236236K"
+    },
+    {
+      "n": "Fengshui Engine",
+      "lvl": "SA2",
+      "i": "236236P",
+      "note": "Sources disagree: Kakuchopurei lists 236236P, GGRecon lists 214214P. Reading used: Kakuchopurei (which also gives the levels).",
+      "note_fr": "Désaccord : Kakuchopurei indique 236236P, GGRecon indique 214214P. Lecture retenue : Kakuchopurei (qui donne aussi les niveaux)."
+    },
+    {
+      "n": "Kaisen Dankai Raku",
+      "lvl": "SA3",
+      "i": "214214K"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon, 2 juin 2023 ; Kakuchopurei, 20 mai 2023</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-juri-character-guide/\">GGRecon - Here's how you play Juri in Street Fighter 6</a> · <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-juri-move-list-guide\">Kakuchopurei - SF6 Juri Move List &amp; Guide</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

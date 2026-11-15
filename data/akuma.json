@@ -1,0 +1,648 @@
+{
+  "meta": "Special moves, Super Arts &amp; combos<br>Main source: <b>TheGamer, 24 May 2024</b> (launch version)",
+  "sources": "Sources: command list based on <a href=\"https://www.thegamer.com/street-fighter-6-sf6-akuma-guide-tips/\">TheGamer — How To Play As Akuma In Street Fighter 6</a> ; Combo Trials and Super Arts: in-game screenshots.",
+  "driveNames": {
+    "Drive Impact": "Drive Impact (Oni Goroshi)",
+    "Drive Reversal": "Drive Reversal (Souha)"
+  },
+  "uniques": [
+    {
+      "n": "Skull Splitter",
+      "i": "6MP"
+    },
+    {
+      "n": "Resso Snap Kick",
+      "i": "6MK"
+    },
+    {
+      "n": "Rago High Kick",
+      "i": "4HK"
+    },
+    {
+      "n": "Viscera Piercer",
+      "i": "MP > MP",
+      "note": "Target combo.",
+      "note_fr": "Target combo."
+    },
+    {
+      "n": "Bone Crusher Axe Kick",
+      "i": "MK > HK",
+      "note": "Target combo.",
+      "note_fr": "Target combo."
+    },
+    {
+      "n": "Kikoku Combination",
+      "i": "6HP > 6HP > HK",
+      "note": "Target combo.",
+      "note_fr": "Target combo."
+    },
+    {
+      "n": "Tenmaku Blade Kick",
+      "air": true,
+      "i": "j.2MK",
+      "note": "While jumping forward.",
+      "note_fr": "En saut avant."
+    }
+  ],
+  "specials": [
+    {
+      "n": "Gou Hadoken",
+      "od": true,
+      "i": "236P",
+      "note": "Can be held (charge); speed depends on strength.",
+      "note_fr": "Peut être maintenu (charge) ; la vitesse dépend de la force."
+    },
+    {
+      "n": "Zanku Hadoken",
+      "od": true,
+      "air": true,
+      "i": "j.236P",
+      "note": "While jumping forward.",
+      "note_fr": "En saut avant."
+    },
+    {
+      "n": "Gou Shoryuken",
+      "od": true,
+      "i": "623P"
+    },
+    {
+      "n": "Tatsumaki Zanku-kyaku",
+      "od": true,
+      "i": "214K"
+    },
+    {
+      "n": "Tatsumaki (aérien)",
+      "od": true,
+      "air": true,
+      "i": "j.214K",
+      "note": "While jumping forward.",
+      "note_fr": "En saut avant."
+    },
+    {
+      "n": "Adamant Flame",
+      "od": true,
+      "i": "214P > 6P"
+    },
+    {
+      "n": "Demon Raid",
+      "i": "236K",
+      "note": "Range depends on the K strength.",
+      "note_fr": "Portée selon la force du K."
+    },
+    {
+      "n": "Demon Low Slash",
+      "sub": true,
+      "i": "5",
+      "note": "No button during Demon Raid.",
+      "note_fr": "Aucune touche pendant Demon Raid."
+    },
+    {
+      "n": "Demon Guillotine",
+      "sub": true,
+      "i": "P"
+    },
+    {
+      "n": "Demon Blade Kick",
+      "sub": true,
+      "i": "K"
+    },
+    {
+      "n": "Demon Swoop",
+      "sub": true,
+      "i": "[2]",
+      "note": "Hold down during Demon Raid.",
+      "note_fr": "Maintenir bas pendant Demon Raid."
+    },
+    {
+      "n": "OD Demon Raid",
+      "od": true,
+      "i": "236KK"
+    },
+    {
+      "n": "Demon Gou Zanku",
+      "sub": true,
+      "i": "236P"
+    },
+    {
+      "n": "Demon Gou Rasen",
+      "sub": true,
+      "i": "214K"
+    },
+    {
+      "n": "Ashura Senku",
+      "i": "6KKK / 4KKK",
+      "note": "Forward / backward teleport (LK+MK+HK).",
+      "note_fr": "Téléportation avant / arrière (LK+MK+HK)."
+    },
+    {
+      "n": "Oboro Throw",
+      "i": "6KKK > LP+LK"
+    }
+  ],
+  "throws": [
+    {
+      "n": "Goshoha",
+      "i": "LP+LK / 6LP+LK",
+      "note": "Forward throw.",
+      "note_fr": "Projection avant."
+    },
+    {
+      "n": "Shuretto",
+      "i": "4LP+LK",
+      "note": "Back throw.",
+      "note_fr": "Projection arrière."
+    }
+  ],
+  "supers": [
+    {
+      "n": "Messatsu Gohado",
+      "lvl": "SA1",
+      "i": "236236P"
+    },
+    {
+      "n": "Tenma Gozanku",
+      "lvl": "SA1",
+      "air": true,
+      "i": "j.236236K",
+      "note": "While jumping neutral or forward.",
+      "note_fr": "En saut neutre ou avant."
+    },
+    {
+      "n": "Empyrean's End",
+      "lvl": "SA2",
+      "i": "214214P"
+    },
+    {
+      "n": "Sip of Calamity",
+      "lvl": "SA3",
+      "i": "236236K",
+      "note": "Stronger at 25% health or less.",
+      "note_fr": "Plus puissant à 25 % de vie ou moins."
+    },
+    {
+      "n": "Shun Goku Satsu",
+      "lvl": "SA3",
+      "i": "LP > LP > 6 > LK > HP",
+      "note": "When health is at 25% or less. Input confirmed by the game's command list.",
+      "note_fr": "Lorsque la vie est à 25 % ou moins. Entrée confirmée par la liste de commandes du jeu."
+    }
+  ],
+  "combos": [
+    {
+      "g": "Beginner · 8 trials",
+      "src": "Combo Trial",
+      "trial": true,
+      "items": [
+        {
+          "t": "Beginner 1",
+          "s": "MK > HK",
+          "names": [
+            "Bone Crusher Axe Kick"
+          ],
+          "t_fr": "Débutant 1",
+          "names_fr": [
+            "Bone Crusher Axe Kick"
+          ]
+        },
+        {
+          "t": "Beginner 2",
+          "s": "6HP > 6HP > HK",
+          "names": [
+            "Kikoku Combination"
+          ],
+          "t_fr": "Débutant 2",
+          "names_fr": [
+            "Kikoku Combination"
+          ]
+        },
+        {
+          "t": "Beginner 3",
+          "s": "j.HK , 2HK",
+          "names": [
+            "Jumping Heavy Kick",
+            "Crouching Heavy Kick"
+          ],
+          "t_fr": "Débutant 3",
+          "names_fr": [
+            "Coup de pied fort sauté",
+            "Coup de pied fort bas"
+          ]
+        },
+        {
+          "t": "Beginner 4",
+          "s": "2MK > 236P",
+          "names": [
+            "Crouching Medium Kick",
+            "Gou Hadoken"
+          ],
+          "t_fr": "Débutant 4",
+          "names_fr": [
+            "Coup de pied moyen bas",
+            "Gou Hadoken"
+          ]
+        },
+        {
+          "t": "Beginner 5",
+          "s": "2MP > 214MP > 6P",
+          "names": [
+            "Crouching Medium Punch",
+            "Adamant Flame (M)"
+          ],
+          "t_fr": "Débutant 5",
+          "names_fr": [
+            "Coup de poing moyen bas",
+            "Adamant Flame (M)"
+          ]
+        },
+        {
+          "t": "Beginner 6",
+          "s": "MP > MP > 623HP",
+          "names": [
+            "Viscera Piercer",
+            "(Heavy) Gou Shoryuken"
+          ],
+          "t_fr": "Débutant 6",
+          "names_fr": [
+            "Viscera Piercer",
+            "(Fort) Gou Shoryuken"
+          ]
+        },
+        {
+          "t": "Beginner 7",
+          "s": "[PC] DI , HP > 214P > 6P",
+          "names": [
+            "Drive Impact (Punish Counter)",
+            "Standing Heavy Punch",
+            "Adamant Flame"
+          ],
+          "t_fr": "Débutant 7",
+          "names_fr": [
+            "Drive Impact (Punish Counter)",
+            "Coup de poing fort haut",
+            "Adamant Flame"
+          ]
+        },
+        {
+          "t": "Beginner 8",
+          "s": "DI , 6HP > 6HP > 214HK",
+          "names": [
+            "Drive Impact (Blocked)",
+            "Kikoku Combination (2)",
+            "(Heavy) Tatsumaki Zanku-kyaku"
+          ],
+          "t_fr": "Débutant 8",
+          "names_fr": [
+            "Drive Impact (garde)",
+            "Kikoku Combination (2)",
+            "(Fort) Tatsumaki Zanku-kyaku"
+          ]
+        }
+      ],
+      "g_fr": "Débutant · 8 épreuves"
+    },
+    {
+      "g": "Intermediate · 11 trials",
+      "src": "Combo Trial",
+      "trial": true,
+      "items": [
+        {
+          "t": "Intermediate 1",
+          "s": "j.HP , HP > 214HP > 6P",
+          "names": [
+            "Jumping Heavy Punch",
+            "Standing Heavy Punch",
+            "Adamant Flame (F)"
+          ],
+          "t_fr": "Initié 1",
+          "names_fr": [
+            "Coup de poing fort sauté",
+            "Coup de poing fort haut",
+            "Adamant Flame (F)"
+          ]
+        },
+        {
+          "t": "Intermediate 2",
+          "s": "2LK , 2LP , 2LP > 623HP",
+          "names": [
+            "Crouching Light Kick",
+            "Crouching Light Punch",
+            "Crouching Light Punch",
+            "(Heavy) Gou Shoryuken"
+          ],
+          "t_fr": "Initié 2",
+          "names_fr": [
+            "Coup de pied léger bas",
+            "Coup de poing léger bas",
+            "Coup de poing léger bas",
+            "(Fort) Gou Shoryuken"
+          ]
+        },
+        {
+          "t": "Intermediate 3",
+          "s": "2MP , MP > MP > 214HK",
+          "names": [
+            "Crouching Medium Punch",
+            "Viscera Piercer",
+            "(Heavy) Tatsumaki Zanku-kyaku"
+          ],
+          "t_fr": "Initié 3",
+          "names_fr": [
+            "Coup de poing moyen bas",
+            "Viscera Piercer",
+            "(Fort) Tatsumaki Zanku-kyaku"
+          ]
+        },
+        {
+          "t": "Intermediate 4",
+          "s": "HK , MK > 214LK , 2HK",
+          "names": [
+            "Standing Heavy Kick",
+            "Standing Medium Kick",
+            "(Light) Tatsumaki Zanku-kyaku",
+            "Crouching Heavy Kick"
+          ],
+          "t_fr": "Initié 4",
+          "names_fr": [
+            "Coup de pied fort haut",
+            "Coup de pied moyen haut",
+            "(Léger) Tatsumaki Zanku-kyaku",
+            "Coup de pied fort bas"
+          ]
+        },
+        {
+          "t": "Intermediate 5",
+          "s": "4HK > 236P [hold] , 214HK",
+          "names": [
+            "Rago High Kick",
+            "Gou Hadoken (hold)",
+            "(Heavy) Tatsumaki Zanku-kyaku"
+          ],
+          "t_fr": "Initié 5",
+          "names_fr": [
+            "Rago High Kick",
+            "Gou Hadoken (maintenir)",
+            "(Fort) Tatsumaki Zanku-kyaku"
+          ]
+        },
+        {
+          "t": "Intermediate 6",
+          "s": "4HK > 236KK > 214K , 623PP",
+          "names": [
+            "Rago High Kick",
+            "OD Demon Raid",
+            "Demon Gou Rasen",
+            "OD Gou Shoryuken"
+          ],
+          "t_fr": "Initié 6",
+          "names_fr": [
+            "Rago High Kick",
+            "OD Demon Raid",
+            "Demon Gou Rasen",
+            "OD Gou Shoryuken"
+          ]
+        },
+        {
+          "t": "Intermediate 7",
+          "s": "[CH] 2LP , MK > 214KK , 623MP",
+          "names": [
+            "Crouching Light Punch (Counter Hit)",
+            "Standing Medium Kick",
+            "OD Tatsumaki Zanku-kyaku",
+            "(Medium) Gou Shoryuken"
+          ],
+          "t_fr": "Initié 7",
+          "names_fr": [
+            "Coup de poing léger bas (contre)",
+            "Coup de pied moyen haut",
+            "OD Tatsumaki Zanku-kyaku",
+            "(Moyen) Gou Shoryuken"
+          ]
+        },
+        {
+          "t": "Intermediate 8",
+          "s": "[PC] 214HP , 2HP > 214HP > 6P , 623HP",
+          "names": [
+            "(Heavy) Adamant Flame (1) (Punish Counter)",
+            "Crouching Heavy Punch",
+            "Adamant Flame (F)",
+            "(Heavy) Gou Shoryuken"
+          ],
+          "t_fr": "Initié 8",
+          "names_fr": [
+            "(Fort) Adamant Flame (1) (Punish Counter)",
+            "Coup de poing fort bas",
+            "Adamant Flame (F)",
+            "(Fort) Gou Shoryuken"
+          ]
+        },
+        {
+          "t": "Intermediate 9",
+          "s": "j.HK , HK , MP > MP > 214PP > 6P > 236236P",
+          "names": [
+            "Jumping Heavy Kick",
+            "Standing Heavy Kick",
+            "Viscera Piercer",
+            "OD Adamant Flame",
+            "Messatsu Gohado"
+          ],
+          "t_fr": "Initié 9",
+          "names_fr": [
+            "Coup de pied fort sauté",
+            "Coup de pied fort haut",
+            "Viscera Piercer",
+            "OD Adamant Flame",
+            "Messatsu Gohado"
+          ]
+        },
+        {
+          "t": "Intermediate 10",
+          "s": "HP > 214PP > 6P > 214214P , 4HK > 236K > K , 214HK",
+          "names": [
+            "Standing Heavy Punch",
+            "OD Adamant Flame",
+            "Empyrean’s End",
+            "Rago High Kick",
+            "Demon Raid",
+            "Demon Blade Kick",
+            "(Heavy) Tatsumaki Zanku-kyaku"
+          ],
+          "t_fr": "Initié 10",
+          "names_fr": [
+            "Coup de poing fort haut",
+            "OD Adamant Flame",
+            "Empyrean’s End",
+            "Rago High Kick",
+            "Demon Raid",
+            "Demon Blade Kick",
+            "(Fort) Tatsumaki Zanku-kyaku"
+          ]
+        },
+        {
+          "t": "Intermediate 11",
+          "s": "DR 6MP , MK > DR HK , 2HP > 214HP > 6HP > 236236K",
+          "names": [
+            "Parry Drive Rush",
+            "Skull Splitter",
+            "Standing Medium Kick",
+            "Cancel Drive Rush",
+            "Standing Heavy Kick",
+            "Crouching Heavy Punch",
+            "(Heavy) Adamant Flame",
+            "Sip of Calamity"
+          ],
+          "dr": 4,
+          "t_fr": "Initié 11",
+          "names_fr": [
+            "Parry Drive Rush",
+            "Skull Splitter",
+            "Coup de pied moyen haut",
+            "Cancel Drive Rush",
+            "Coup de pied fort haut",
+            "Coup de poing fort bas",
+            "(Fort) Adamant Flame",
+            "Sip of Calamity"
+          ]
+        }
+      ],
+      "g_fr": "Initié · 11 épreuves"
+    },
+    {
+      "g": "Expert · 5 trials",
+      "src": "Combo Trial",
+      "trial": true,
+      "items": [
+        {
+          "t": "Expert 1",
+          "s": "j.236PP , DR 4HK > 236HK > HK , 214MK",
+          "names": [
+            "OD Zanku Hadoken",
+            "Parry Drive Rush",
+            "Rago High Kick",
+            "(Heavy) Demon Raid",
+            "(Heavy) Demon Blade Kick",
+            "(Medium) Tatsumaki Zanku-kyaku"
+          ],
+          "names_fr": [
+            "OD Zanku Hadoken",
+            "Parry Drive Rush",
+            "Rago High Kick",
+            "(Fort) Demon Raid",
+            "(Fort) Demon Blade Kick",
+            "(Moyen) Tatsumaki Zanku-kyaku"
+          ]
+        },
+        {
+          "t": "Expert 2",
+          "s": "2LK , 2LP , LK > DR 2LP , 2HP > 214LK > 236236P",
+          "names": [
+            "Crouching Light Kick",
+            "Crouching Light Punch",
+            "Standing Light Kick",
+            "Cancel Drive Rush",
+            "Crouching Light Punch",
+            "Crouching Heavy Punch",
+            "(Light) Tatsumaki Zanku-kyaku",
+            "Messatsu Gohado"
+          ],
+          "note": "Drive Rush is done on hit with a cancelable special move.",
+          "note_fr": "Le Drive Rush se fait en touchant avec un coup spécial cancelable.",
+          "names_fr": [
+            "Coup de pied léger bas",
+            "Coup de poing léger bas",
+            "Coup de pied léger haut",
+            "Cancel Drive Rush",
+            "Coup de poing léger bas",
+            "Coup de poing fort bas",
+            "(Léger) Tatsumaki Zanku-kyaku",
+            "Messatsu Gohado"
+          ]
+        },
+        {
+          "t": "Expert 3",
+          "s": "j.MP > j.236236K , DR MK > HK > 214214P , 4HK > 214KK , 623PP",
+          "names": [
+            "Jumping Medium Punch",
+            "Tenma Gozanku",
+            "Parry Drive Rush",
+            "Bone Crusher Axe Kick",
+            "Empyrean’s End",
+            "Rago High Kick",
+            "OD Tatsumaki Zanku-kyaku",
+            "OD Gou Shoryuken"
+          ],
+          "names_fr": [
+            "Coup de poing moyen sauté",
+            "Tenma Gozanku",
+            "Parry Drive Rush",
+            "Bone Crusher Axe Kick",
+            "Empyrean’s End",
+            "Rago High Kick",
+            "OD Tatsumaki Zanku-kyaku",
+            "OD Gou Shoryuken"
+          ]
+        },
+        {
+          "t": "Expert 4",
+          "s": "[PC] 214HP , 2HP > 214PP > 6P , 4HK > 236PP [hold] , 214MK , 623LP > 236236K",
+          "names": [
+            "(Heavy) Adamant Flame (1) (Punish Counter)",
+            "Crouching Heavy Punch",
+            "OD Adamant Flame",
+            "Rago High Kick",
+            "OD Gou Hadoken (hold)",
+            "(Medium) Tatsumaki Zanku-kyaku",
+            "(Light) Gou Shoryuken",
+            "Sip of Calamity"
+          ],
+          "names_fr": [
+            "(Fort) Adamant Flame (1) (Punish Counter)",
+            "Coup de poing fort bas",
+            "OD Adamant Flame",
+            "Rago High Kick",
+            "OD Gou Hadoken (maintenir)",
+            "(Moyen) Tatsumaki Zanku-kyaku",
+            "(Léger) Gou Shoryuken",
+            "Sip of Calamity"
+          ]
+        },
+        {
+          "t": "Expert 5",
+          "s": "DR HK , 2HP > DR HP , MK > DR MP , 2HP > 214LP > 6P > LP > LP > 6 > LK > HP",
+          "names": [
+            "Parry Drive Rush",
+            "Standing Heavy Kick",
+            "Crouching Heavy Punch",
+            "Cancel Drive Rush",
+            "Standing Heavy Punch",
+            "Standing Medium Kick",
+            "Cancel Drive Rush",
+            "Standing Medium Punch",
+            "Crouching Heavy Punch",
+            "Adamant Flame (L)",
+            "Shun Goku Satsu"
+          ],
+          "dr": 7,
+          "su": 3,
+          "note": "Cost calculated from the inputs: more than the 6 bars of a full gauge.",
+          "note_fr": "Coût calculé d’après les entrées : plus que les 6 barres d’une jauge pleine.",
+          "names_fr": [
+            "Parry Drive Rush",
+            "Coup de pied fort haut",
+            "Coup de poing fort bas",
+            "Cancel Drive Rush",
+            "Coup de poing fort haut",
+            "Coup de pied moyen haut",
+            "Cancel Drive Rush",
+            "Coup de poing moyen haut",
+            "Coup de poing fort bas",
+            "Adamant Flame (L)",
+            "Shun Goku Satsu"
+          ]
+        }
+      ],
+      "g_fr": "Expert · 5 épreuves"
+    }
+  ],
+  "meta_fr": "Coups spéciaux, Super Arts &amp; combos<br>Source principale : <b>TheGamer, 24 mai 2024</b> (version de lancement)",
+  "sources_fr": "Sources : liste de commandes d’après <a href=\"https://www.thegamer.com/street-fighter-6-sf6-akuma-guide-tips/\">TheGamer — How To Play As Akuma In Street Fighter 6</a> ; Combo Trials et Super Arts : captures du jeu."
+}

@@ -1,0 +1,142 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon (2 June 2023), Kakuchopurei (May 2023)</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://ggrecon.com/guides/street-fighter-6-luke-character-guide\">GGRecon, Luke</a> · <a href=\"https://www.kakuchopurei.com/?p=176262\">Kakuchopurei, Luke Move List &amp; Guide</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Rawhide",
+      "i": "6MP"
+    },
+    {
+      "n": "Suppressor",
+      "i": "4HP"
+    },
+    {
+      "n": "Outlaw Kick",
+      "i": "4HK",
+      "note": "Mentioned only by GGRecon.",
+      "note_fr": "Cité uniquement par GGRecon."
+    },
+    {
+      "n": "Double Impact",
+      "i": "6HP > HP",
+      "note": "GGRecon: 6HP then HP; Kakuchopurei: 6HP then 6HP. Reading used: GGRecon.",
+      "note_fr": "GGRecon : 6HP puis HP ; Kakuchopurei : 6HP puis 6HP. Lecture retenue : GGRecon."
+    },
+    {
+      "n": "Triple Impact",
+      "i": "LP > MP > HP"
+    },
+    {
+      "n": "Nose Breaker",
+      "i": "2MK > 2HP",
+      "note": "Sources disagree: GGRecon lists 2MP then 2HP; Kakuchopurei lists 2MK then 2HP. Reading used: Kakuchopurei.",
+      "note_fr": "Désaccord : GGRecon indique 2MP puis 2HP ; Kakuchopurei 2MK puis 2HP. Lecture retenue : Kakuchopurei."
+    },
+    {
+      "n": "Snapback Combo",
+      "i": "MP > MP > MP > MP"
+    }
+  ],
+  "specials": [
+    {
+      "n": "Sand Blast",
+      "i": "236P",
+      "od": true
+    },
+    {
+      "n": "Fatal Shot",
+      "i": "236PP > PP",
+      "sub": true,
+      "note": "Follow-up to OD Sand Blast.",
+      "note_fr": "Suite de Sand Blast OD."
+    },
+    {
+      "n": "Flash Knuckle",
+      "i": "214P",
+      "od": true,
+      "note": "Chargeable version (hold the button) according to Kakuchopurei.",
+      "note_fr": "Version chargeable (maintenir le bouton) selon Kakuchopurei."
+    },
+    {
+      "n": "DDT",
+      "i": "214PP > PP",
+      "sub": true,
+      "note": "Follow-up to OD Flash Knuckle.",
+      "note_fr": "Suite de Flash Knuckle OD."
+    },
+    {
+      "n": "Aerial Flash Knuckle",
+      "i": "j.214P",
+      "od": true,
+      "air": true
+    },
+    {
+      "n": "Avenger",
+      "i": "236K",
+      "od": true
+    },
+    {
+      "n": "No Chaser",
+      "i": "236K > P",
+      "sub": true,
+      "note": "Mentioned only by Kakuchopurei.",
+      "note_fr": "Cité uniquement par Kakuchopurei."
+    },
+    {
+      "n": "Impaler",
+      "i": "236K > K",
+      "sub": true,
+      "note": "Mentioned only by Kakuchopurei.",
+      "note_fr": "Cité uniquement par Kakuchopurei."
+    },
+    {
+      "n": "Rising Uppercut",
+      "i": "623P",
+      "od": true
+    },
+    {
+      "n": "Slam Dunk",
+      "i": "623PP > PP",
+      "sub": true,
+      "note": "Follow-up to OD Rising Uppercut.",
+      "note_fr": "Suite de Rising Uppercut OD."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Vulcan Blast",
+      "lvl": "SA1",
+      "i": "236236P"
+    },
+    {
+      "n": "Eraser",
+      "lvl": "SA2",
+      "i": "214214P"
+    },
+    {
+      "n": "Pale Rider",
+      "lvl": "SA3",
+      "i": "236236K"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon (2 juin 2023), Kakuchopurei (mai 2023)</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://ggrecon.com/guides/street-fighter-6-luke-character-guide\">GGRecon, Luke</a> · <a href=\"https://www.kakuchopurei.com/?p=176262\">Kakuchopurei, Luke Move List &amp; Guide</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

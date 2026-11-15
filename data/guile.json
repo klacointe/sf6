@@ -1,0 +1,132 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon (3 June 2023) and Kakuchopurei (20 May 2023)</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-guile-moves-combos-backstory/\">GGRecon, Guile (3 June 2023)</a> ; <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-guile-move-list-guide/\">Kakuchopurei, Guile (20 May 2023)</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Full Bullet Magnum",
+      "i": "6MP"
+    },
+    {
+      "n": "Bruning Straight",
+      "i": "4HP",
+      "note": "Written \"Bruning Straight\" by Kakuchopurei; GGRecon: Burning Straight.",
+      "note_fr": "Écrit « Bruning Straight » par Kakuchopurei ; GGRecon : Burning Straight."
+    },
+    {
+      "n": "Spinning Back Knuckle",
+      "i": "6HP"
+    },
+    {
+      "n": "Knee Bazooka",
+      "i": "4LK"
+    },
+    {
+      "n": "Rolling Sobat",
+      "i": "4MK / 6MK",
+      "note": "Disagreement: GGRecon gives MK (back or forward), Kakuchopurei gives MP (4MP / 6MP, same as Full Bullet Magnum). MK reading retained.",
+      "note_fr": "Désaccord : GGRecon donne MK (arrière ou avant), Kakuchopurei donne MP (4MP / 6MP, identique à Full Bullet Magnum). Lecture MK retenue."
+    },
+    {
+      "n": "Reverse Spin Kick",
+      "i": "6HK"
+    },
+    {
+      "n": "Guile High Kick",
+      "i": "3HK"
+    },
+    {
+      "n": "Recoil Cannon",
+      "i": "MP > 4HP",
+      "note": "Target combo.",
+      "note_fr": "Enchaînement cible."
+    },
+    {
+      "n": "Double Shot",
+      "i": "2MP > 2MP",
+      "note": "Target combo.",
+      "note_fr": "Enchaînement cible."
+    },
+    {
+      "n": "Drake Fang",
+      "i": "2MK > 2MP",
+      "note": "Target combo.",
+      "note_fr": "Enchaînement cible."
+    },
+    {
+      "n": "Phantom Cutter",
+      "i": "2HK > 3HK",
+      "note": "Target combo.",
+      "note_fr": "Enchaînement cible."
+    }
+  ],
+  "specials": [
+    {
+      "n": "Sonic Boom",
+      "i": "[4]6P",
+      "od": true
+    },
+    {
+      "n": "Somersault Kick",
+      "i": "[2]8K",
+      "od": true
+    },
+    {
+      "n": "Sonic Blade",
+      "i": "214P",
+      "od": true
+    },
+    {
+      "n": "Sonic Cross",
+      "i": "6P",
+      "sub": true,
+      "note": "During Sonic Blade.",
+      "note_fr": "Pendant Sonic Blade."
+    },
+    {
+      "n": "Sonic Break",
+      "i": "PP",
+      "sub": true,
+      "note": "The sources say \"during Solid Puncher\" (then additional P for other projectiles); context and input uncertain (Kakuchopurei: P+P). No confirmed OD version.",
+      "note_fr": "Les sources disent « pendant Solid Puncher » (puis P supplémentaires pour d'autres projectiles) ; contexte et entrée incertains (Kakuchopurei : P+P). Pas de version OD confirmée."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Sonic Hurricane",
+      "lvl": "SA1",
+      "i": "[4]646P"
+    },
+    {
+      "n": "Solid Puncher",
+      "lvl": "SA2",
+      "i": "214214P"
+    },
+    {
+      "n": "Crossfire Somersault",
+      "lvl": "SA3",
+      "i": "[4]646K",
+      "note": "Critical Art.",
+      "note_fr": "Critical Art."
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon (3 juin 2023) et Kakuchopurei (20 mai 2023)</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-guile-moves-combos-backstory/\">GGRecon, Guile (3 juin 2023)</a> ; <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-guile-move-list-guide/\">Kakuchopurei, Guile (20 mai 2023)</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

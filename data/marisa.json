@@ -1,0 +1,156 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon (8 June 2023) and Kakuchopurei (9 May 2023)</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-marisa-character-guide/\">GGRecon, How to play Marisa (8 June 2023, Classic controls)</a>, <a href=\"https://www.kakuchopurei.com/?p=175289\">Kakuchopurei, Marisa Move List &amp; Guide (9 May 2023)</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Marisa Style",
+      "i": "HP [hold] / HK [hold]",
+      "note": "Hold then release.",
+      "note_fr": "Maintenir puis relâcher."
+    },
+    {
+      "n": "Light Two Hitter",
+      "i": "LP > LP"
+    },
+    {
+      "n": "Medium Two Hitter",
+      "i": "MP > MP",
+      "note": "Special-cancelable (Kakuchopurei).",
+      "note_fr": "Annulable en spéciaux (Kakuchopurei)."
+    },
+    {
+      "n": "Heavy Two Hitter",
+      "i": "HP > HP",
+      "note": "Listed only by GGRecon.",
+      "note_fr": "Listé seulement par GGRecon."
+    },
+    {
+      "n": "Volare Combo",
+      "i": "j.MP > MP",
+      "note": "In the air.",
+      "note_fr": "En l'air."
+    },
+    {
+      "n": "Caelum Arc",
+      "i": "j.2HP",
+      "note": "In a neutral jump.",
+      "note_fr": "En saut neutre."
+    },
+    {
+      "n": "Magna Bunker",
+      "i": "4HP"
+    },
+    {
+      "n": "Novacula Swipe",
+      "i": "6MP > HP",
+      "note": "Listed only by GGRecon.",
+      "note_fr": "Listé seulement par GGRecon."
+    },
+    {
+      "n": "Novacula Thrust",
+      "i": "6MP > HK",
+      "note": "Kakuchopurei: 6MP then HK; GGRecon writes the input ambiguously.",
+      "note_fr": "Kakuchopurei : 6MP puis HK ; GGRecon note l'entrée de façon ambiguë."
+    },
+    {
+      "n": "Malleus Breaker",
+      "i": "3HK > 3HK",
+      "note": "GGRecon: 3HK > 3HK; Kakuchopurei: 3HP > 3HP (sources disagree).",
+      "note_fr": "GGRecon : 3HK > 3HK ; Kakuchopurei : 3HP > 3HP (désaccord)."
+    },
+    {
+      "n": "Falx Crusher",
+      "i": "6HK > 6HK"
+    }
+  ],
+  "specials": [
+    {
+      "n": "Gladius",
+      "i": "236P",
+      "note": "Hold P for the two-hit version (Kakuchopurei).",
+      "note_fr": "Maintenir P pour la version à deux coups (Kakuchopurei)."
+    },
+    {
+      "n": "Dimachaerus",
+      "i": "214P > 6P"
+    },
+    {
+      "n": "Phalanx",
+      "i": "623P"
+    },
+    {
+      "n": "Quadriga",
+      "i": "236K"
+    },
+    {
+      "n": "Scutum",
+      "i": "214K [hold]",
+      "note": "Stance to hold (Kakuchopurei).",
+      "note_fr": "Posture à maintenir (Kakuchopurei)."
+    },
+    {
+      "n": "Tonitrus",
+      "i": "P > P",
+      "note": "During Scutum.",
+      "sub": true,
+      "note_fr": "Pendant Scutum."
+    },
+    {
+      "n": "Procella",
+      "i": "K",
+      "note": "During Scutum.",
+      "sub": true,
+      "note_fr": "Pendant Scutum."
+    },
+    {
+      "n": "Enfold",
+      "i": "LP+LK",
+      "note": "GGRecon: LP+LK; Kakuchopurei: LP+LP (sources disagree). Close to the opponent.",
+      "sub": true,
+      "note_fr": "GGRecon : LP+LK ; Kakuchopurei : LP+LP (désaccord). Près de l'adversaire."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Javelin of Marisa",
+      "i": "236236P",
+      "note": "Inferred level (Kakuchopurei: level 1 with armor).",
+      "lvl": "SA1",
+      "note_fr": "Niveau déduit (Kakuchopurei : niveau 1 avec armure)."
+    },
+    {
+      "n": "Meteorite",
+      "i": "214214P",
+      "note": "Level not given by the sources, inferred from the order.",
+      "lvl": "SA2",
+      "note_fr": "Niveau non indiqué par les sources, déduit de l'ordre."
+    },
+    {
+      "n": "Goddess of the Hunt",
+      "i": "236236K",
+      "note": "Level 3 according to Kakuchopurei.",
+      "lvl": "SA3",
+      "note_fr": "Niveau 3 selon Kakuchopurei."
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon (8 juin 2023) et Kakuchopurei (9 mai 2023)</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-marisa-character-guide/\">GGRecon, How to play Marisa (8 juin 2023, contrôles classiques)</a>, <a href=\"https://www.kakuchopurei.com/?p=175289\">Kakuchopurei, Marisa Move List &amp; Guide (9 mai 2023)</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

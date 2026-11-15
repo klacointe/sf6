@@ -1,0 +1,121 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon 3 June 2023 and Kakuchopurei 22 May 2023</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://ggrecon.com/guides/street-fighter-6-e-honda-character-guide\">GGRecon (2 June 2023)</a>, <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-e-honda-guide-move-list/\">Kakuchopurei (22 May 2023)</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Harai Kick",
+      "i": "6HK"
+    },
+    {
+      "n": "Power Stomp",
+      "i": "3HK",
+      "note": "GGRecon: Forward/Down + HK",
+      "note_fr": "GGRecon : Avant/Bas + HK"
+    },
+    {
+      "n": "Flying Sumo Press",
+      "i": "j.2MK",
+      "note": "During a jump (Kakuchopurei); GGRecon: Down + MK",
+      "note_fr": "Pendant un saut (Kakuchopurei) ; GGRecon : Bas + MK"
+    },
+    {
+      "n": "Double Slaps",
+      "i": "LP > MP"
+    },
+    {
+      "n": "Toko Shizume",
+      "i": "MP > 3HK",
+      "note": "The second hit is an overhead according to Kakuchopurei",
+      "note_fr": "Le second coup est un overhead selon Kakuchopurei"
+    }
+  ],
+  "specials": [
+    {
+      "n": "Hundred Hand Slap",
+      "i": "214P"
+    },
+    {
+      "n": "Sumo Headbutt",
+      "i": "[4]6P",
+      "note": "Kakuchopurei: [4]6P or [1]6P; GGRecon: Back, Forward + P",
+      "note_fr": "Kakuchopurei : [4]6P ou [1]6P ; GGRecon : Arrière, Avant + P"
+    },
+    {
+      "n": "Sumo Smash",
+      "i": "[2]8K",
+      "note": "Kakuchopurei: also [1]8K or [3]8K",
+      "note_fr": "Kakuchopurei : aussi [1]8K ou [3]8K"
+    },
+    {
+      "n": "Oicho Throw",
+      "i": "63214K",
+      "note": "Sources disagree: GGRecon Down, Down/Forward, Down, Down/Back, Back + K (probably a misreading); Kakuchopurei 63214K, retained",
+      "note_fr": "Sources divergentes : GGRecon Bas, Bas/Avant, Bas, Bas/Arrière, Arrière + K (lecture probablement erronée) ; Kakuchopurei 63214K, retenu"
+    },
+    {
+      "n": "Sumo Dash",
+      "i": "236K"
+    },
+    {
+      "n": "Teppo Triple Slap",
+      "i": "236K > P > P",
+      "sub": true,
+      "note": "Name according to GGRecon",
+      "note_fr": "Nom selon GGRecon"
+    },
+    {
+      "n": "Taiho Cannon Lift",
+      "i": "236K > 2P",
+      "sub": true,
+      "note": "Name according to GGRecon",
+      "note_fr": "Nom selon GGRecon"
+    },
+    {
+      "n": "Neko Damashi",
+      "i": "22P"
+    },
+    {
+      "n": "Sumo Spirit",
+      "i": "22K"
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Show of Force",
+      "lvl": "SA1",
+      "i": "236236P"
+    },
+    {
+      "n": "Ultimate Killer Head Ram",
+      "lvl": "SA2",
+      "i": "[4]646K",
+      "note": "Back charge: GGRecon writes Back, Forward, Back, Forward + K without specifying the charge",
+      "note_fr": "Charge arrière : GGRecon écrit Arrière, Avant, Arrière, Avant + K sans préciser la charge"
+    },
+    {
+      "n": "The Final Bout",
+      "lvl": "SA3",
+      "i": "214214P"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon 03/06/2023 et Kakuchopurei 22/05/2023</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://ggrecon.com/guides/street-fighter-6-e-honda-character-guide\">GGRecon (2 juin 2023)</a>, <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-e-honda-guide-move-list/\">Kakuchopurei (22 mai 2023)</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

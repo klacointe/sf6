@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fiches SF6</title>
+<meta name="description" content="">
+<style>
+/* Base styles (reset) */
+:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}
+img{max-width:100%}
+[hidden]:not([hidden=until-found i]){display:none!important}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: a single A4 "command card" — header strip, legend bar, then two columns (moves | combos). Screen and print share it. */
+:root {
+  --paper: #f5f3f4;
+  --card: #ffffff;
+  --ink: #1d1a1f;
+  --muted: #625b66;
+  --line: #ddd6dc;
+  --accent: #8e1b2c;      /* Akuma crimson */
+  --dir-bg: #2a262d;      /* direction tiles */
+  --dir-fg: #ffffff;
+  --btn-l: #2b7bd0;       /* light */
+  --btn-m: #d9a000;       /* medium */
+  --btn-h: #d0372a;       /* heavy */
+  --btn-any: #6c6472;     /* any strength */
+  --drive: #2f9a57;       /* Drive gauge green */
+  --sa: #6a3fb0;          /* Super Arts */
+  --hold: #d99a00;        /* held direction (gold arrow in the game) */
+  --warn-bg: #fff3d6;
+  --warn-fg: #6b4b00;
+  --f-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --f-body: "Barlow Semi Condensed", "Arial Narrow", system-ui, sans-serif;
+}
+/* Light only, whatever the viewer's theme */
+:root, :root[data-theme="dark"] { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink);
+  font-family: var(--f-body); font-size: 14px; line-height: 1.35;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 32px;
+}
+.sheet { max-width: 1120px; margin: 0 auto; display: grid; gap: 14px; }
+
+/* Header */
+header { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 6px 18px; border-bottom: 3px solid var(--accent); padding-bottom: 8px; }
+.kanji { font-family: serif; font-size: 44px; line-height: 1; color: var(--accent); font-weight: 700; }
+h1 { font-family: var(--f-display); font-weight: 800; font-size: 34px; letter-spacing: .02em; line-height: 1; margin: 0; text-transform: uppercase; }
+h1 small { font-weight: 600; color: var(--muted); font-size: 18px; letter-spacing: .06em; margin-left: 6px; }
+
+/* Legend */
+.lang { display: flex; justify-content: flex-end; gap: 4px; }
+.lang button { font-family: var(--f-display); font-weight: 700; font-size: 12px; letter-spacing: .08em; padding: 2px 9px; border: 1px solid var(--line); border-radius: 4px; background: var(--card); color: var(--ink); cursor: pointer; }
+.lang button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.lang button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(11em, 1fr)); gap: 8px; }
+.card { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); text-decoration: none; font-family: var(--f-display); font-weight: 700; font-size: 16px; letter-spacing: .04em; text-transform: uppercase; }
+.card:hover { border-color: var(--accent); }
+.card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.card .ck { font-family: serif; font-size: 26px; line-height: 1; color: var(--accent); min-width: 2.2em; text-align: center; white-space: nowrap; }
+.card span:last-child { white-space: nowrap; }
+.note .seq { display: inline-flex; vertical-align: middle; margin: 0 2px; }
+.alts { display: grid; gap: 3px; justify-items: start; }
+.alts .or { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; padding-left: 4px; }
+.homelink { color: inherit; text-decoration: none; }
+.tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+.tab { font-family: var(--f-display); font-weight: 700; font-size: 14px; letter-spacing: .06em; text-transform: uppercase; padding: 4px 12px; border: 1px solid var(--line); border-radius: 4px; color: var(--ink); background: var(--card); text-decoration: none; }
+.tab.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.legend { display: grid; gap: 6px; font-size: 12px; color: var(--muted); background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; }
+.lrow { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; padding-top: 6px; border-top: 1px solid var(--line); }
+.lrow:first-child { border-top: 0; padding-top: 0; }
+.ltitle { font-family: var(--f-display); font-weight: 700; font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink); min-width: 8.5em; }
+.legend .lrow > span { display: inline-flex; align-items: center; gap: 5px; }
+
+/* Columns */
+/* Top block: moves in two flowing columns; bottom block: combos on the full width */
+.cols { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; align-items: start; }
+/* Character page, top block: fixed columns. Left: unique attacks + throws. Right: special moves + super arts. */
+.topgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start; }
+.stack { display: grid; gap: 10px; align-content: start; min-width: 0; }
+@media (max-width: 820px) { .cols, .topgrid { grid-template-columns: minmax(0, 1fr); } }
+section { display: grid; gap: 4px; min-width: 0; }
+h2 { font-family: var(--f-display); font-weight: 700; font-size: 17px; text-transform: uppercase; letter-spacing: .08em; margin: 6px 0 2px; color: var(--accent); display: flex; align-items: baseline; gap: 8px; }
+h2 .count { font-size: 12px; color: var(--muted); letter-spacing: .04em; }
+h3 { font-family: var(--f-display); font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: .07em; margin: 8px 0 0; color: var(--muted); }
+
+/* Move rows */
+.rows { display: grid; background: var(--card); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.row { display: grid; grid-template-columns: minmax(0, 11em) minmax(0, 1fr); gap: 2px 10px; padding: 5px 9px; border-top: 1px solid var(--line); align-items: center; }
+.row:first-child { border-top: 0; }
+.row .name { font-weight: 600; }
+.row .name .tag { margin-left: 4px; }
+.row .note { grid-column: 2; font-size: 12px; color: var(--muted); }
+.row .note.names { color: var(--ink); }
+.row.cb { grid-template-columns: minmax(0, 12.5em) minmax(0, 1fr); }
+.row.sub .name { padding-left: 12px; font-weight: 500; color: var(--muted); }
+.row.sub .name::before { content: "↳ "; }
+@media (max-width: 460px) { .row { grid-template-columns: minmax(0, 1fr); } .row .note { grid-column: 1; } }
+
+/* Combos */
+.combo { padding: 6px 9px; border-top: 1px solid var(--line); display: grid; gap: 2px; }
+.combo:first-child { border-top: 0; }
+.combo .note { font-size: 12px; color: var(--muted); }
+.combo .ctitle { font-weight: 700; font-size: 13px; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; }
+.cost { font-size: 12px; font-weight: 500; color: var(--muted); display: inline-flex; flex-wrap: wrap; align-items: center; gap: 2px 6px; }
+.odver { display: inline-flex; align-items: center; gap: 4px; }
+.odpair { display: inline-flex; gap: 1px; }
+.odpair .btn svg { width: 15px; height: 15px; }
+.name .gauges { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px; margin-top: 2px; }
+.gauge { display: inline-flex; align-items: center; gap: 3px; }
+.gauge svg { width: 22px; height: 10px; flex: none; }
+.gauge b { font-family: var(--f-display); font-weight: 800; font-size: 13px; color: var(--ink); line-height: 1; }
+.cost .none { font-weight: 600; }
+.cost .dot { color: var(--line); }
+
+/* Notation rendering */
+.seq { display: flex; flex-wrap: wrap; align-items: center; gap: 3px 2px; min-width: 0; }
+.mv { display: inline-flex; align-items: center; gap: 1px; white-space: nowrap; }
+/* In-game style: solid block arrows without background; round dark buttons with a light ring and white fist / foot */
+svg.dir { width: 18px; height: 18px; flex: none; }
+svg.dir .a { fill: var(--ink); }
+svg.dir.held .a { fill: var(--hold); }
+svg.dir.n circle { fill: none; stroke: var(--ink); stroke-width: 1.8; }
+svg.dir.n text { fill: var(--ink); font: 800 11.5px var(--f-display); }
+.btn { display: inline-flex; align-items: center; gap: 0; }
+.btn svg { width: 19px; height: 19px; flex: none; }
+.btn svg .bg { fill: #2d2b2c; stroke: #d9d2f4; stroke-width: .9; }
+.btn svg .g { fill: #f4f2f7; }
+.btn b { font-family: var(--f-display); font-weight: 800; font-size: 13px; color: var(--ink); margin-left: 1px; line-height: 1; }
+/* Button colors sampled from the in-game command list: any = dark, L = teal, M = olive yellow, H = red */
+.btn.A { --b-bg: #2d2b2c; --b-ring: #d9d2f4; --b-gl: #f4f2f7; }
+.btn.L { --b-bg: #22808c; --b-ring: #a6c8ee; --b-gl: #9fe3ec; }
+.btn.M { --b-bg: #b3b028; --b-ring: #e6e29e; --b-gl: #f4f08a; }
+.btn.H { --b-bg: #c23a2e; --b-ring: #f0b4b4; --b-gl: #f6a49a; }
+.press { display: inline-flex; align-items: center; gap: 2px; }
+.plus { color: var(--muted); font-weight: 700; font-size: 12px; margin: 0 1px; }
+.jump { font-family: var(--f-display); font-weight: 700; font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 3px; padding: 0 3px; margin-right: 2px; text-transform: uppercase; }
+.sep { color: var(--accent); font-weight: 800; font-size: 15px; padding: 0 3px; line-height: 1; }
+.sep.tri { font-size: 10px; padding: 0 3px; }
+.sep.link { color: var(--muted); font-size: 16px; padding: 0 3px 0 0; }
+.chip { font-family: var(--f-display); font-weight: 700; font-size: 11.5px; letter-spacing: .05em; border-radius: 3px; padding: 1px 5px; line-height: 1.3; white-space: nowrap; }
+.chip.drive { background: var(--drive); color: #fff; }
+.chip.od { background: var(--drive); color: #fff; font-size: 10px; padding: 0 3px; margin-left: 2px; }
+.chip.pc, .chip.ch { background: transparent; color: var(--accent); border: 1.5px solid var(--accent); }
+.chip.sa { background: var(--sa); color: #fff; }
+.chip.hold { background: transparent; color: var(--muted); border: 1px dashed var(--muted); font-size: 10.5px; }
+.tag { font-family: var(--f-display); font-size: 11px; font-weight: 700; letter-spacing: .05em; color: var(--muted); border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; text-transform: uppercase; vertical-align: 1px; }
+.tag.air { color: var(--sa); border-color: var(--sa); }
+.flag { display: inline-block; background: var(--warn-bg); color: var(--warn-fg); border-radius: 3px; padding: 0 4px; font-size: 11.5px; font-weight: 600; }
+
+.callout { background: var(--warn-bg); color: var(--warn-fg); border-radius: 6px; padding: 7px 10px; font-size: 12.5px; }
+
+/* Print: compact A4, light colors, two columns */
+@page { size: A4 portrait; margin: 7mm; }
+@media print {
+  :root, :root[data-theme="dark"], :root:not([data-theme="light"]) {
+    --paper: #fff; --card: #fff; --ink: #000; --muted: #444; --line: #bbb; --accent: #8e1b2c;
+    --dir-bg: #222; --dir-fg: #fff; --btn-l: #2b7bd0; --btn-m: #c99400; --btn-h: #d0372a; --btn-any: #6c6472;
+    --drive: #2f9a57; --sa: #6a3fb0; --warn-bg: #f3f3f3; --warn-fg: #333;
+    color-scheme: light;
+  }
+  body { font-size: 8.4pt; padding: 0; line-height: 1.22; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .sheet { max-width: none; gap: 5px; }
+  header { padding-bottom: 3px; border-bottom-width: 2px; }
+  .kanji { font-size: 26px; } h1 { font-size: 20px; } h1 small { font-size: 11px; }
+  .tabs, .lang { display: none; }
+  .legend { font-size: 7pt; padding: 3px 6px; gap: 2px 10px; }
+  .cols { gap: 8px; }
+  .topgrid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 4px 10px; }   /* an A4 page is narrower than the phone breakpoint */
+  .stack { gap: 4px; }
+  .cols > div:nth-child(2) { break-before: page; }
+  h2 { font-size: 10.5pt; margin: 2px 0 0; } h3 { font-size: 8pt; margin: 3px 0 0; }
+  .row { padding: 2px 5px; grid-template-columns: minmax(0, 9.5em) minmax(0, 1fr); }
+  .row .note, .combo .note { font-size: 7pt; }
+  .combo { padding: 2px 5px; gap: 0; }
+  .combo .ctitle { font-size: 7.6pt; }
+  .cost { font-size: 7pt; } .gauge svg { width: 15px; height: 7px; } .gauge b { font-size: 8pt; }
+  svg.dir { width: 12px; height: 12px; } .btn svg { width: 13px; height: 13px; }
+  .btn b { font-size: 8.5pt; } .sep { font-size: 10pt; padding: 0 1px; }
+  .chip { font-size: 7pt; padding: 0 3px; } .tag { font-size: 6.5pt; }
+  .callout { font-size: 7pt; padding: 3px 6px; }
+  .row, .combo { break-inside: avoid; }
+  a { color: inherit; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="fist" viewBox="0 0 20 20">
+      <circle cx="10" cy="10" r="9.4" stroke-width=".9" style="fill:var(--b-bg,#2d2b2c);stroke:var(--b-ring,#d9d2f4)"/>
+      <path style="fill:var(--b-gl,#f4f2f7)" fill-rule="evenodd" d="M10.48 17.09C10.42 17.01 10.34 16.81 10.29 16.66C10.25 16.51 10.17 16.32 10.11 16.25C9.86 15.86 9.29 15.86 8.72 16.26C8.30 16.55 8.06 16.50 7.57 16.03C7.33 15.80 7.29 15.73 7.21 15.48C7.00 14.80 7.06 14.57 7.51 14.33C7.66 14.24 7.86 14.11 7.95 14.04C8.04 13.96 8.35 13.78 8.63 13.63C8.91 13.48 9.25 13.30 9.38 13.22C9.50 13.14 9.74 13.01 9.90 12.94C10.06 12.86 10.31 12.71 10.46 12.59C10.76 12.37 10.97 12.25 11.23 12.17C11.50 12.08 11.87 11.88 12.10 11.70C12.21 11.61 12.42 11.48 12.56 11.41C13.02 11.18 13.45 10.88 13.50 10.75C13.55 10.64 13.54 10.60 13.48 10.45C13.39 10.27 13.17 10.06 13.03 10.02C12.85 9.97 12.31 10.27 11.96 10.61C11.77 10.79 11.07 11.12 10.89 11.12C10.67 11.13 10.39 10.93 10.27 10.70C10.20 10.57 10.19 10.21 10.25 10.00C10.32 9.74 10.48 9.63 11.58 9.03C11.76 8.94 12.01 8.77 12.15 8.66C12.29 8.55 12.52 8.40 12.65 8.32C13.01 8.11 13.43 7.85 13.89 7.55C14.37 7.24 14.52 7.17 14.80 7.17C15.15 7.17 15.40 7.37 15.52 7.74C15.55 7.85 15.63 8.10 15.71 8.29C15.78 8.49 15.88 8.91 15.94 9.24C16.06 9.95 16.11 10.09 16.30 10.34C16.55 10.67 16.61 11.23 16.44 11.60C16.39 11.70 16.26 11.86 16.15 11.98C15.82 12.31 15.71 12.46 15.71 12.57C15.71 12.70 15.97 13.29 16.13 13.53L16.26 13.71L16.15 13.89C15.97 14.20 15.48 14.81 15.12 15.16C14.04 16.24 12.60 16.96 11.10 17.19C10.88 17.22 10.66 17.25 10.64 17.25C10.61 17.25 10.54 17.18 10.48 17.09ZM5.98 13.38C5.78 13.25 5.40 12.83 5.24 12.56C5.16 12.42 4.95 12.04 4.78 11.71C4.57 11.31 4.40 11.05 4.29 10.94C4.09 10.74 4.03 10.63 3.92 10.29C3.87 10.15 3.77 9.92 3.69 9.79C3.42 9.35 3.44 9.18 3.82 8.85C4.26 8.47 4.47 8.42 4.81 8.62C5.11 8.79 5.45 9.23 5.83 9.94C5.93 10.12 6.10 10.36 6.19 10.47C6.34 10.64 6.54 11.04 6.54 11.16C6.54 11.18 6.67 11.39 6.82 11.63C6.98 11.87 7.15 12.16 7.20 12.28C7.30 12.49 7.30 12.50 7.23 12.68C7.02 13.24 6.35 13.61 5.98 13.38ZM8.58 11.92C8.48 11.86 8.36 11.75 8.31 11.68C8.27 11.62 8.14 11.46 8.02 11.33C7.90 11.21 7.76 11.01 7.71 10.90C7.66 10.79 7.54 10.61 7.44 10.50C7.31 10.35 7.24 10.22 7.17 9.98C7.10 9.74 7.04 9.62 6.88 9.44C6.78 9.32 6.61 9.07 6.52 8.90C6.43 8.73 6.27 8.48 6.17 8.34C5.93 8.05 5.89 7.98 5.86 7.76C5.82 7.53 5.93 7.28 6.22 6.97C6.57 6.59 6.85 6.51 7.21 6.67C7.47 6.79 7.53 6.86 7.69 7.19C7.79 7.41 7.88 7.53 8.05 7.67C8.29 7.88 8.38 8.06 8.38 8.34C8.38 8.59 8.45 8.74 8.67 8.90C8.93 9.09 8.98 9.23 8.92 9.58C8.88 9.78 8.88 9.90 8.94 10.17C9.01 10.54 9.07 10.69 9.21 10.81C9.41 10.99 9.48 11.42 9.36 11.66C9.26 11.84 9.01 12.04 8.88 12.04C8.82 12.04 8.68 11.99 8.58 11.92ZM9.91 8.43C9.76 8.41 9.65 8.27 9.51 7.93C9.44 7.77 9.30 7.53 9.21 7.41C9.11 7.29 8.98 7.07 8.91 6.92C8.85 6.78 8.73 6.59 8.65 6.50C8.44 6.27 8.39 6.07 8.46 5.70C8.50 5.47 8.54 5.38 8.65 5.25C8.83 5.06 9.16 4.91 9.42 4.91C9.83 4.91 10.28 5.37 10.42 5.93C10.45 6.05 10.54 6.20 10.66 6.34C11.07 6.82 11.22 7.39 11.04 7.75C10.81 8.21 10.64 8.34 10.08 8.43C10.05 8.44 9.97 8.44 9.91 8.43ZM12.43 6.97C12.29 6.94 12.17 6.78 12.10 6.52C12.02 6.23 11.95 6.08 11.79 5.88C11.69 5.75 11.47 5.40 11.09 4.80C10.95 4.58 10.98 4.25 11.15 4.08C11.31 3.92 11.91 3.70 12.18 3.70C12.56 3.71 12.72 3.86 13.05 4.51C13.16 4.75 13.29 4.98 13.33 5.04C13.37 5.10 13.46 5.26 13.53 5.40C13.60 5.54 13.71 5.73 13.79 5.83C13.93 6.03 13.95 6.20 13.84 6.30C13.80 6.34 13.67 6.41 13.54 6.47C13.42 6.53 13.23 6.64 13.13 6.73C12.88 6.93 12.66 7.01 12.43 6.97Z"/>
+    </symbol>
+    <symbol id="foot" viewBox="0 0 20 20">
+      <circle cx="10" cy="10" r="9.4" stroke-width=".9" style="fill:var(--b-bg,#2d2b2c);stroke:var(--b-ring,#d9d2f4)"/>
+      <path style="fill:var(--b-gl,#f4f2f7)" fill-rule="evenodd" d="M9.75 16.13C9.24 16.00 9.13 15.94 8.97 15.70C8.91 15.60 8.78 15.42 8.68 15.29C8.49 15.03 8.44 14.89 8.40 14.50C8.35 14.00 8.07 13.60 7.42 13.11C7.10 12.87 6.06 11.92 5.66 11.51C5.30 11.14 5.22 10.95 5.17 10.41C5.13 9.95 5.05 9.66 4.90 9.42C4.85 9.34 4.75 9.17 4.69 9.06C4.63 8.94 4.49 8.73 4.37 8.60C3.96 8.13 3.85 7.79 4.00 7.41C4.16 6.97 4.40 6.87 4.86 7.05C5.14 7.15 5.26 7.27 5.42 7.59C5.57 7.88 5.98 8.33 6.31 8.55C6.45 8.65 6.70 8.82 6.86 8.95C7.08 9.11 7.26 9.20 7.48 9.27C7.65 9.32 7.86 9.42 7.94 9.48C8.02 9.54 8.22 9.65 8.39 9.73C8.55 9.80 8.79 9.94 8.92 10.04C9.22 10.27 9.44 10.32 10.21 10.35C11.02 10.39 11.18 10.35 11.79 9.93C12.03 9.77 12.31 9.60 12.40 9.55C12.56 9.47 12.72 9.31 12.97 8.98C13.04 8.90 13.17 8.77 13.26 8.70C13.55 8.50 14.25 7.88 14.54 7.57C14.80 7.30 15.32 6.86 15.53 6.76C15.70 6.67 15.93 6.70 16.14 6.84C16.39 7.01 16.45 7.09 16.57 7.52C16.64 7.77 16.75 8.00 16.92 8.29L17.17 8.70L17.21 9.34C17.23 9.69 17.25 10.13 17.25 10.31L17.25 10.64L16.91 10.98C16.70 11.18 16.48 11.36 16.36 11.41C16.24 11.47 16.06 11.61 15.94 11.73C15.83 11.86 15.64 12.01 15.51 12.08C15.39 12.15 15.22 12.27 15.13 12.35C15.05 12.42 14.89 12.55 14.77 12.63C14.66 12.70 14.38 12.93 14.16 13.12C13.94 13.32 13.63 13.59 13.46 13.73C13.30 13.87 13.06 14.12 12.92 14.29C12.78 14.46 12.56 14.71 12.42 14.84C12.28 14.98 12.09 15.22 12.00 15.39C11.70 15.90 11.61 15.96 10.96 16.14C10.47 16.28 10.30 16.28 9.75 16.13Z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<main class="sheet">
+  <div class="lang" id="lang" role="group" aria-label="Langue / Language"></div>
+  <header>
+    <span class="kanji" id="kanji" aria-hidden="true" hidden></span>
+    <h1><a href="#" class="homelink"><span id="cname"></span></a> <small>Street Fighter 6 · <span data-i18n="ctrl"></span></small></h1>
+  </header>
+
+  <div class="callout" id="loaderr" hidden></div>
+
+  <nav class="tabs" id="tabs" hidden></nav>
+
+  <div class="legend" id="legend"></div>
+
+  <div class="cols" id="charview">
+    <div class="topgrid">
+      <div class="stack">
+        <section>
+          <h2 data-i18n="sec_uniques"></h2>
+          <div class="rows" id="uniques"></div>
+        </section>
+        <section>
+          <h2 data-i18n="sec_system"></h2>
+          <div class="rows" id="system"></div>
+        </section>
+      </div>
+      <div class="stack">
+        <section>
+          <h2 data-i18n="sec_specials"></h2>
+          <div class="rows" id="specials"></div>
+        </section>
+        <section>
+          <h2 data-i18n="sec_supers"></h2>
+          <div class="rows" id="supers"></div>
+        </section>
+      </div>
+    </div>
+    <div>
+      <section>
+        <h2><span data-i18n="sec_combos"></span> <span class="count" id="combo-count"></span></h2>
+        <div class="note" style="font-size:12px;color:var(--muted)" data-i18n="gaugeNote"></div>
+        <div id="combos" style="display:grid;gap:4px"></div>
+      </section>
+      <div class="callout" style="margin-top:8px" data-i18n="calloutTrial"></div>
+    </div>
+  </div>
+
+  <div class="home" id="homeview" hidden>
+    <section>
+      <h2 data-i18n="homeChars"></h2>
+      <div class="cards" id="cards"></div>
+    </section>
+    <div class="cols">
+      <div>
+        <section>
+          <h2 data-i18n="sec_drive"></h2>
+          <div class="rows" id="hdrive"></div>
+        </section>
+      </div>
+      <div>
+        <section>
+          <h2 data-i18n="sec_mechanics"></h2>
+          <div class="rows" id="hmech"></div>
+          <div class="note" style="font-size:12px;color:var(--muted)" data-i18n="mechNote"></div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+// ---------- Notation ----------
+// Tokens separated by spaces:
+//   moves     [j.][digits][buttons]   e.g. 236P, 2MK, j.214K, 623HP, 214PP (OD), 6KKK, LP+LK, 4LP+LK
+//   separators  >  (cancel)   ,  (link)   ~  (then)   /  (or)   ( )   +   N (neutral icon, e.g. > ( N / 6 ) + MP+MK)
+//   chips     DR DI DP  [PC] [CH] [hold] [OD] SA1 SA2 SA3 CA
+const DIR_ANGLE = { 6: 0, 3: 45, 2: 90, 1: 135, 4: 180, 7: 225, 8: 270, 9: 315 };
+const BTN_RE = /^(LP|MP|HP|LK|MK|HK|PPP|KKK|PP|KK|P|K)(\+(LP|MP|HP|LK|MK|HK))*$/;
+const MOVE_RE = /^(j\.)?(?:\[([1-9])\])?([1-9]*)(.*)$/; // [4]6P = hold back, then forward + P
+const CHIPS = {
+  'DR': ['drive', 'DR'], 'DI': ['drive', 'DI'], 'DP': ['drive', 'PARRY'],
+  '[PC]': ['pc', 'PC'], '[CH]': ['ch', 'CH'], '[hold]': ['hold', 'hold'],
+  'SA1': ['sa', 'SA1'], 'SA2': ['sa', 'SA2'], 'SA3': ['sa', 'SA3'], 'CA': ['sa', 'CA'],
+};
+const SEPS = { '>': ['sep tri', '▶'], ',': ['sep link', ','], '~': ['sep', '~'], '/': ['sep link', '/'], '(': ['sep link', '('], ')': ['sep link', ')'], '+': ['plus', '+'] };
+
+function parseToken(t) {
+  if (SEPS[t]) return { kind: 'sep', cls: SEPS[t][0], text: SEPS[t][1] };
+  if (CHIPS[t]) return { kind: 'chip', cls: CHIPS[t][0], text: CHIPS[t][1] };
+  if (t === 'N') return { kind: 'move', jump: false, held: 0, dirs: [5], btn: '' }; // neutral shown as its own icon
+  const m = MOVE_RE.exec(t);
+  if (!m) return null;
+  const [, jump, held, digits, btn] = m;
+  const dirs = (held || '') + digits;
+  if (!dirs && !btn) return null;
+  if (btn && !BTN_RE.test(btn)) return null;
+  return { kind: 'move', jump: !!jump, held: held ? 1 : 0, dirs: dirs.split('').map(Number), btn: btn || '' };
+}
+function parseSeq(s) {
+  return s.trim().split(/\s+/).map(t => ({ t, p: parseToken(t) }));
+}
+function buttonsOf(btn) {
+  // returns list of {glyph:'fist'|'foot', str:'L'|'M'|'H'|'A'} and an od flag
+  if (!btn) return { list: [], od: false };
+  // OD: show the two buttons to press (L+M, as in the source); any two of the same kind work in game
+  if (btn === 'PP' || btn === 'KK') {
+    const g = btn[0] === 'P' ? 'fist' : 'foot';
+    return { list: [{ glyph: g, str: 'A' }, { glyph: g, str: 'A' }], od: true };
+  }
+  if (/^(PPP|KKK|P|K)$/.test(btn)) {
+    const g = btn[0] === 'P' ? 'fist' : 'foot';
+    return { list: Array.from(btn, () => ({ glyph: g, str: 'A' })), od: btn.length === 2, ex: btn.length === 3 };
+  }
+  return { list: btn.split('+').map(b => ({ glyph: b[1] === 'P' ? 'fist' : 'foot', str: b[0] })), od: false };
+}
+
+// ---------- Language (fr / en) ----------
+// Data files keep English text in the base fields and French in <field>_fr (note_fr, t_fr, n_fr, names_fr, g_fr).
+let LANG = 'fr';
+(function initLang() {
+  let l = null;
+  try { l = new URLSearchParams(location.search).get('lang') || localStorage.getItem('sf6lang'); } catch (e) {}
+  if (l !== 'fr' && l !== 'en') l = (navigator.language || 'fr').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+  LANG = l;
+})();
+const UI = {
+  fr: {
+    title: 'Fiches SF6', desc: 'Fiches des coups spéciaux, Super Arts et épreuves de combo de Street Fighter 6 (contrôles Classic).',
+    ctrl: 'Classique', tabs: 'Personnage',
+    home: 'Accueil', homeName: 'Fiches des coups', homeChars: 'Personnages', sec_drive: 'Coups Drive',
+    sec_uniques: 'Attaques uniques', sec_specials: 'Coups spéciaux', sec_system: 'Projections', sec_supers: 'Super Arts', sec_mechanics: 'Mécaniques', sec_combos: 'Combos',
+    mechNote: 'Entraînement : dans les réglages du mannequin, forcez les coups en Counter ou Punish Counter pour travailler les combos <b>PC</b> et <b>CH</b>.',
+    gaugeNote: 'Jauge consommée (calculée d’après les entrées) : Drive Rush en cancel d’un coup normal 3 barres, Drive Rush après un coup spécial (depuis la Parry) 1, version OD 2, Drive Impact 1 · Super Art niveau 1 / 2 / 3 = 1 / 2 / 3 barres.',
+    calloutTrial: 'Épreuves « Combo Trial » relevées sur le jeu. Les patchs ont pu modifier dégâts, frames et liens. Validez chaque combo en mode entraînement.',
+    or: 'ou', jump: 'saut', held: 'maintenu', neutral: 'neutre', holdArrow: 'à maintenir',
+    gDrive: 'Jauge Drive', gSuper: 'Jauge Super', gOD: 'Version OD : 2 barres de jauge Drive',
+    pos: { A: 'Partout', C: 'Coin' }, diff: { E: 'Facile', M: 'Moyen', H: 'Difficile' }, dmg: n => `${n} dégâts`,
+    trials: n => `${n} épreuves`, combos: n => `${n} combos`,
+    drParry: 'DR depuis la Parry', drCancel: 'DR cancel',
+    errList: m => `Impossible de charger la liste des personnages (${m}). `,
+    errChar: (id, m) => `Impossible de charger les données de « ${id} » (${m}). `,
+    hint: 'Ouvrez la page via GitHub Pages ou un serveur local (docker compose up) : le navigateur bloque la lecture des fichiers JSON quand la page est ouverte directement depuis un fichier.',
+    legend: [
+      ['Manipulations', [['236', 'quart de cercle'], ['6P', '+ : bouton avec la direction'], ['[4]', 'flèche dorée : à maintenir (charge)'], ['N', 'neutre'], ['j.', 'en l’air']]],
+      ['Boutons', [['LP / MP / HP', 'poing L / M / H'], ['LK / MK / HK', 'pied L / M / H'], ['P', 'tout poing'], ['K', 'tout pied'], ['PP / KK', 'OD : deux poings ou pieds quelconques en même temps']]],
+      ['Enchaînements', [['>', 'cancel (enchaîner pendant le coup)'], [',', 'link (enchaîner après le coup)']]],
+      ['Mécaniques', [['DR', 'Drive Rush'], ['[PC]', 'Punish Counter'], ['[CH]', 'Counter-hit']]],
+      ['Jauges', [[null, 'drive', 'barres de jauge Drive consommées (sur un coup spécial : version OD)'], [null, 'sa', 'barres de jauge Super consommées']]],
+    ],
+  },
+  en: {
+    title: 'SF6 move sheets', desc: 'Special moves, Super Arts and combo trials for Street Fighter 6 (Classic controls).',
+    ctrl: 'Classic', tabs: 'Character',
+    home: 'Home', homeName: 'Move sheets', homeChars: 'Characters', sec_drive: 'Drive moves',
+    sec_uniques: 'Unique attacks', sec_specials: 'Special moves', sec_system: 'Throws', sec_supers: 'Super Arts', sec_mechanics: 'Mechanics', sec_combos: 'Combos',
+    mechNote: 'Training: in the dummy settings, force hits to Counter or Punish Counter to practise the <b>PC</b> and <b>CH</b> combos.',
+    gaugeNote: 'Gauge used (computed from the inputs): Drive Rush cancelling a normal 3 bars, Drive Rush after a special (from Parry) 1, OD version 2, Drive Impact 1 · Super Art level 1 / 2 / 3 = 1 / 2 / 3 bars.',
+    calloutTrial: 'Combo Trials taken from the game. Patches may have changed damage, frames and links. Check each combo in training mode.',
+    or: 'or', jump: 'jump', held: 'hold', neutral: 'neutral', holdArrow: 'hold',
+    gDrive: 'Drive gauge', gSuper: 'Super gauge', gOD: 'OD version: 2 bars of Drive gauge',
+    pos: { A: 'Anywhere', C: 'Corner' }, diff: { E: 'Easy', M: 'Medium', H: 'Hard' }, dmg: n => `${n} damage`,
+    trials: n => `${n} trials`, combos: n => `${n} combos`,
+    drParry: 'DR from Parry', drCancel: 'DR cancel',
+    errList: m => `Unable to load the character list (${m}). `,
+    errChar: (id, m) => `Unable to load the data for "${id}" (${m}). `,
+    hint: 'Open the page through GitHub Pages or a local server (docker compose up): the browser blocks reading JSON files when the page is opened directly from a file.',
+    legend: [
+      ['Motions', [['236', 'quarter circle'], ['6P', '+: button with the direction'], ['[4]', 'golden arrow: hold (charge)'], ['N', 'neutral'], ['j.', 'in the air']]],
+      ['Buttons', [['LP / MP / HP', 'punch L / M / H'], ['LK / MK / HK', 'kick L / M / H'], ['P', 'any punch'], ['K', 'any kick'], ['PP / KK', 'OD: any two punches or kicks at the same time']]],
+      ['Chains', [['>', 'cancel (chain during the move)'], [',', 'link (chain after the move)']]],
+      ['Mechanics', [['DR', 'Drive Rush'], ['[PC]', 'Punish Counter'], ['[CH]', 'Counter-hit']]],
+      ['Gauges', [[null, 'drive', 'bars of Drive gauge used (on a special move: OD version)'], [null, 'sa', 'bars of Super gauge used']]],
+    ],
+  },
+};
+const t = k => UI[LANG][k];
+// Localized field: <field>_fr when the page is in French and the translation exists, else the base (English) field.
+const L = (o, k) => (LANG === 'fr' && o[k + '_fr'] != null ? o[k + '_fr'] : o[k]);
+function applyStatic() {
+  document.documentElement.lang = LANG;
+  document.title = t('title');
+  document.querySelector('meta[name="description"]').setAttribute('content', t('desc'));
+  document.getElementById('tabs').setAttribute('aria-label', t('tabs'));
+  for (const e of document.querySelectorAll('[data-i18n]')) e.innerHTML = t(e.dataset.i18n);
+}
+function renderLangSwitch() {
+  const box = document.getElementById('lang');
+  box.innerHTML = '';
+  for (const l of ['fr', 'en']) {
+    const b = el('button', null, l.toUpperCase());
+    b.type = 'button';
+    b.setAttribute('aria-pressed', String(l === LANG));
+    b.addEventListener('click', () => setLang(l));
+    box.append(b);
+  }
+}
+function setLang(l) {
+  if (l === LANG) return;
+  LANG = l;
+  try { localStorage.setItem('sf6lang', l); } catch (e) {}
+  try { const u = new URL(location.href); u.searchParams.set('lang', l); history.replaceState(null, '', u); } catch (e) {}
+  refresh();
+}
+
+// ---------- Data (Classic controls) ----------
+// Common to every character: Drive moves and mechanics.
+const COMMON_DRIVE = [
+  { n: 'Drive Impact', chips: ['DI'], i: 'HP+HK', drive: [[1, '1 bar of Drive gauge', '1 barre de jauge Drive']] },
+  { n: 'Drive Reversal', i: '6HP+HK', note: 'While blocking.', note_fr: 'Pendant la garde.', drive: [[2, '2 bars of Drive gauge', '2 barres de jauge Drive']] },
+  { n: 'Drive Parry', chips: ['DP'], i: 'MP+MK',
+    note: 'Parry: blocks without taking chip damage and also parries projectiles. Does not parry throws. Drains Drive while held; a successful parry gives some back. Also used to start a Drive Rush ({{66}}). Empty gauge: Burnout, no Parry or Drive Rush.',
+    note_fr: 'Parade : bloque sans subir de dégâts à travers la garde (pas de chip damage) et pare aussi les projectiles. Ne pare pas les projections. Consomme du Drive tant qu’on la maintient ; une parade réussie en rend un peu. Sert aussi à lancer un Drive Rush ({{66}}). Jauge vide : Burnout, plus de Parry ni de Drive Rush.' },
+  { n: 'Drive Rush', chips: ['DR'], i: '',
+    note: 'The next move leaves more advantage. Not possible in Burnout.', note_fr: 'Le coup suivant laisse plus d’avantage. Impossible en Burnout.' },
+  { n: 'From Parry', n_fr: 'Depuis la Parry', sub: true, i: 'DP 66',
+    note: 'Hold {{MP+MK}}, then {{66}}.', note_fr: 'Maintenir {{MP+MK}}, puis {{66}}.',
+    drive: [[1, '1 bar of Drive gauge', '1 barre de jauge Drive']] },
+  { n: 'Cancelling a move', n_fr: 'En cancel d’un coup', sub: true, i: ['> 66', '> N + MP+MK', '> 6 + MP+MK'],
+    note: 'When hitting with a special-cancelable move.', note_fr: 'En touchant avec un coup spécial cancelable.',
+    drive: [[3, '3 bars of Drive gauge', '3 barres de jauge Drive']] },
+];
+const COMMON_MECHANICS = [
+  { n: 'Punish Counter', chips: ['[PC]'], i: '[PC]',
+    note: 'Hit the opponent during the recovery of their move (whiffed or blocked). More damage and stun, drains their Drive gauge.',
+    note_fr: 'Toucher l’adversaire pendant la récupération de son coup (coup raté ou bloqué). Plus de dégâts et d’étourdissement, vide sa jauge Drive.' },
+  { n: 'Counter-hit', chips: ['[CH]'], i: '[CH]',
+    note: 'Hit during the startup of the opponent’s move. Smaller bonus than a Punish Counter.',
+    note_fr: 'Toucher pendant le démarrage du coup adverse. Bonus plus faible que le Punish Counter.' },
+  { n: 'Drive Impact on PC', n_fr: 'Drive Impact en PC', chips: ['[PC]', 'DI'], i: '[PC] HP+HK',
+    drive: [[1, 'bar of Drive gauge', 'barre de jauge Drive']],
+    note: 'Staggers the opponent: enough time to land a big combo.', note_fr: 'Fait chanceler l’adversaire : le temps de placer un gros combo.' },
+];
+
+// ---------- Characters ----------
+// Data is loaded on demand: data/characters.json (index) and data/<id>.json (one file per character).
+// To add a character, create data/<id>.json (same shape as the others) and add it to data/characters.json.
+// Inputs use the notation described above.
+const CHARACTERS = {}; // id -> data, filled when a character is first shown
+let C = null; // current character
+
+// ---------- Rendering ----------
+function el(tag, cls, html) { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+function dirSvg(d, held) {
+  if (d === 5) return `<svg class="dir n" viewBox="0 0 20 20" aria-label="${t('neutral')}"><circle cx="10" cy="10" r="8.2"/><text x="10" y="14.2" text-anchor="middle">N</text></svg>`;
+  return `<svg class="dir${held ? ' held' : ''}" viewBox="0 0 20 20" aria-hidden="true"${held ? ` aria-label="${t('holdArrow')}"` : ''}><g transform="rotate(${DIR_ANGLE[d]} 10 10)"><path class="a" d="M2 7.4h8.6V3l7.9 7-7.9 7v-4.4H2z"/></g></svg>`;
+}
+function btnHtml(b) {
+  // Strength letters: L (Light), M (Medium), H (Heavy)
+  const letter = b.str === 'A' ? '' : `<b>${b.str}</b>`;
+  return `<span class="btn ${b.str}"><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#${b.glyph}"/></svg>${letter}</span>`;
+}
+const DIR_WORD = { 1: '↙', 2: '↓', 3: '↘', 4: '←', 5: 'N', 6: '→', 7: '↖', 8: '↑', 9: '↗' };
+function renderSeq(s) {
+  const wrap = el('span', 'seq');
+  for (const { t: tok, p } of parseSeq(s)) {
+    if (!p) { wrap.append(el('span', 'flag', tok)); continue; }
+    if (p.kind === 'sep') { wrap.append(el('span', p.cls, p.text)); continue; }
+    if (p.kind === 'chip') { wrap.append(el('span', 'chip ' + p.cls, tok === '[hold]' ? t('held') : p.text)); continue; }
+    const mv = el('span', 'mv');
+    mv.setAttribute('aria-label', tok);
+    let h = p.jump ? `<span class="jump">${t('jump')}</span>` : '';
+    // Standing moves (5 + button) show no direction, as in the game
+    const dirs = p.btn && p.dirs.length === 1 && p.dirs[0] === 5 ? [] : p.dirs;
+    h += dirs.map((d, i) => dirSvg(d, i < (p.held || 0))).join('');
+    const bs = buttonsOf(p.btn);
+    if (dirs.length && bs.list.length) h += '<span class="plus">+</span>';
+    // Simultaneous buttons sit side by side without "+", as in the game ("+" only links direction and buttons)
+    if (bs.list.length) h += '<span class="press">' + bs.list.map(btnHtml).join('') + '</span>';
+    mv.innerHTML = h;
+    wrap.append(mv);
+  }
+  return wrap;
+}
+// An input is a string, or a list of alternatives. A " / " inside a string also means alternatives:
+// each one goes on its own line, separated by "or" (translated to "ou" in French).
+function seqBlock(i) {
+  const list = Array.isArray(i) ? i : (typeof i === 'string' && i.includes(' / ') ? i.split(' / ') : null);
+  if (!list) return i ? renderSeq(i) : el('span');
+  const alt = el('div', 'alts');
+  list.forEach((s, k) => { if (k) alt.append(el('span', 'or', t('or'))); alt.append(renderSeq(s)); });
+  return alt;
+}
+// Notes can embed notation: {{MP+MK}} is rendered with the same icons as the move lists
+const rich = s => s.replace(/\{\{(.+?)\}\}/g, (_, n) => renderSeq(n).outerHTML);
+function renderRows(id, data) {
+  const box = document.getElementById(id);
+  box.innerHTML = '';
+  box.closest('section').hidden = !data.length;
+  for (const r of data) {
+    const row = el('div', 'row' + (r.sub ? ' sub' : ''));
+    const name = el('div', 'name', L(r, 'n'));
+    if (r.air) name.append(el('span', 'tag air', 'air'));
+    if (r.flag) name.append(' ', el('span', 'flag', '!'));
+    if (r.chips) for (const k of r.chips) { const [cls, txt] = CHIPS[k]; name.append(' ', el('span', 'chip ' + cls, txt)); }
+    // Gauge icons right after the name, as in the in-game command list
+    const g = [];
+    if (r.lvl && !r.sub) g.push(gaugeHtml('sa', Number(r.lvl.slice(2))));
+    // OD version: the two generic buttons to press (fists or feet, from the input) then its Drive cost
+    if (r.od) {
+      const m = String([].concat(r.i)[0] || '').match(/[PK](?=[^PK]*$)/);
+      const two = m ? ['fist', 'foot'][+(m[0] === 'K')] : null;
+      const pair = two ? `<span class="odpair">${btnHtml({ glyph: two, str: 'A' })}${btnHtml({ glyph: two, str: 'A' })}</span>` : '';
+      g.push(`<span class="odver" title="${t('gOD')}">${pair}${gaugeHtml('drive', 2, t('gOD'))}</span>`);
+    }
+    if (r.drive) g.push(r.drive.map(([n, en, fr]) => gaugeHtml('drive', n, LANG === 'fr' ? fr : en)).join('<span class="dot">/</span>'));
+    if (g.length) name.append(el('span', 'gauges', g.join(' ')));
+    row.append(name, seqBlock(r.i));
+    if (L(r, 'note')) row.append(el('div', 'note', rich(L(r, 'note'))));
+    box.append(row);
+  }
+}
+function renderCombos() {
+  const box = document.getElementById('combos');
+  box.innerHTML = '';
+  box.closest('.cols > div').hidden = !(C.combos || []).length;
+  let n = 0, nt = 0;
+  for (const grp of C.combos || []) {
+    box.append(el('h3', null, L(grp, 'g') + (grp.src ? ` <span class="tag">${grp.src === true ? 'source secondaire' : grp.src}</span>` : '')));
+    const rows = el('div', 'rows');
+    for (const c of grp.items) {
+      if (grp.trial) nt++; else n++;
+      // Same row layout as specials / super arts: name + gauge icons | notation, details below
+      const k = comboCost(c.s);
+      const dT = c.dr !== undefined ? c.dr : k.drive.total;
+      const sT = c.su !== undefined ? c.su : k.sup.total;
+      const icons = [dT && gaugeHtml('drive', dT), sT && gaugeHtml('sa', sT)].filter(Boolean).join(' ');
+      const explicit = c.dr !== undefined || c.su !== undefined;
+      const detail = explicit || grp.trial ? '' : [k.drive.total && k.drive.parts.join(' + '), k.sup.total && k.sup.parts.join(' + ')].filter(Boolean).join(' · ');
+      const meta = [c.dmg && t('dmg')(c.dmg), t('pos')[c.pos] || c.pos, t('diff')[c.df]].filter(Boolean).join(' · ');
+      const d = el('div', 'row cb');
+      const nm = el('div', 'name', L(c, 't') || '');
+      if (icons) nm.append(el('span', 'gauges', icons));
+      d.append(nm, seqBlock(c.s));
+      if (c.names) d.append(el('div', 'note names', L(c, 'names').join(' · ')));
+      const txt = [meta, detail, L(c, 'note')].filter(Boolean).join(' · ');
+      if (txt || c.flag) d.append(el('div', 'note', (c.flag ? '<span class="flag">!</span> ' : '') + txt));
+      rows.append(d);
+    }
+    box.append(rows);
+  }
+  document.getElementById('combo-count').textContent = [nt && t('trials')(nt), n && t('combos')(n)].filter(Boolean).join(' · ');
+}
+function renderLegend() {
+  const L_ = document.getElementById('legend');
+  L_.innerHTML = '';
+  for (const [title, items] of t('legend')) {
+    const row = el('div', 'lrow');
+    row.append(el('b', 'ltitle', title));
+    for (const it of items) {
+      const sp = el('span');
+      // 'j.' alone is the jump tag, without a button
+      if (it[0] === 'j.') { const j = el('span', 'seq'); j.innerHTML = `<span class="mv"><span class="jump">${t('jump')}</span></span>`; sp.append(j, document.createTextNode(it[1])); }
+      // '[4]' alone is the golden "direction to hold" arrow, without the rest of the motion
+      else if (it[0] === '[4]') { const h = el('span', 'seq'); h.innerHTML = `<span class="mv">${dirSvg(4, true)}</span>`; sp.append(h, document.createTextNode(it[1])); }
+      else if (it[0]) { sp.append(renderSeq(it[0]), document.createTextNode(it[1])); }
+      else { sp.innerHTML = `${gaugeHtml(it[1], it[1] === 'drive' ? 2 : 1)} ${it[2]}`; }
+      row.append(sp);
+    }
+    L_.append(row);
+  }
+}
+
+// ---------- Gauge cost of a combo ----------
+// Drive: DR after a normal = cancel (3 bars); DR after a special = from Parry (1 bar); OD = 2; Drive Impact = 1.
+// Super: SA1 = 1, SA2 = 2, SA3 = 3.
+// Built from the current character's Super Arts (simple motions only): input -> [name, level]
+let SUPER_MOVES = {};
+function comboCost(s) {
+  const drive = [], sup = [];
+  let prev = null;
+  for (const { t: tok, p } of parseSeq(s)) {
+    if (!p) continue;
+    if (p.kind === 'chip' && tok === 'DR') {
+      const afterSpecial = prev && prev.dirs.length >= 3;
+      drive.push(afterSpecial ? [t('drParry'), 1] : [t('drCancel'), 3]);
+    } else if (p.kind === 'chip' && tok === 'DI') {
+      drive.push(['Drive Impact', 1]);
+    } else if (p.kind === 'move') {
+      const key = (p.jump ? 'j.' : '') + p.dirs.join('') + p.btn;
+      const generic = (p.jump ? 'j.' : '') + p.dirs.join('') + (p.btn.includes('P') ? 'P' : 'K');
+      if (p.dirs.length === 6 && SUPER_MOVES[generic]) sup.push(SUPER_MOVES[generic]);
+      else if (p.btn === 'PP' || p.btn === 'KK') drive.push(['OD', 2]);
+      prev = p;
+    }
+  }
+  const group = list => {
+    const m = new Map();
+    for (const [label, n] of list) { const e = m.get(label) || { n, c: 0 }; e.c++; m.set(label, e); }
+    return { total: list.reduce((a, [, n]) => a + n, 0), parts: [...m].map(([l, e]) => (e.c > 1 ? `${l} ×${e.c}` : l)) };
+  };
+  return { drive: group(drive), sup: group(sup) };
+}
+// In-game gauge icon: slanted bar (green = Drive, pink = Super) followed by the number of bars
+function gaugeHtml(kind, n, title) {
+  const c = kind === 'drive' ? ['#14920a', '#72e45c'] : ['#c23f7c', '#f3a8ca'];
+  return `<span class="gauge" title="${title || (kind === 'drive' ? t('gDrive') : t('gSuper'))}"><svg viewBox="0 0 22 10" aria-hidden="true"><path d="M1 1h15.5l4.5 8H5.5z" fill="${c[0]}" stroke="${c[1]}" stroke-width="1.2" stroke-linejoin="round"/></svg><b>${n}</b></span>`;
+}
+function costHtml(s) {
+  const { drive, sup } = comboCost(s);
+  if (!drive.total && !sup.total) return '';
+  const out = [];
+  if (drive.total) out.push(`${gaugeHtml('drive', drive.total)} ${drive.parts.join(' + ')}`);
+  if (sup.total) out.push(`${gaugeHtml('sa', sup.total)} ${sup.parts.join(' + ')}`);
+  return out.join('<span class="dot">·</span>');
+}
+
+// Validation helper (also used outside the browser): every token must parse.
+function allRows(c) {
+  return [...(c.uniques || []), ...(c.specials || []), ...(c.throws || []), ...(c.supers || [])];
+}
+function unknownTokens() {
+  const out = [];
+  const check = s => parseSeq(s).filter(x => !x.p).forEach(x => out.push(`${x.t} in "${s}"`));
+  [...COMMON_DRIVE, ...COMMON_MECHANICS].forEach(r => [].concat(r.i || []).forEach(check));
+  for (const c of Object.values(CHARACTERS)) {
+    allRows(c).forEach(r => check(r.i));
+    (c.combos || []).forEach(g => g.items.forEach(x => check(x.s)));
+  }
+  return out;
+}
+
+// ---------- Character selection (data loaded on demand) ----------
+let INDEX = [];
+let REQ = 0;
+async function loadJson(path) {
+  const r = await fetch(path);
+  if (!r.ok) throw new Error(`${path} : HTTP ${r.status}`);
+  return r.json();
+}
+function useCharacter(id) {
+  C = CHARACTERS[id];
+  SUPER_MOVES = {};
+  for (const r of C.supers || []) if (r.lvl && /^(j\.)?\d+[PK]$/.test(r.i)) SUPER_MOVES[r.i] = [r.n, Number(r.lvl.slice(2))];
+  return C;
+}
+function currentId() {
+  const id = location.hash.slice(1);
+  return INDEX.some(c => c.id === id) ? id : 'home'; // no hash (the site root) = home page
+}
+function renderTabs(activeId) {
+  const nav = document.getElementById('tabs');
+  nav.hidden = INDEX.length < 2;
+  nav.innerHTML = '';
+  const home = el('a', 'tab' + (activeId === 'home' ? ' on' : ''), t('home'));
+  home.href = '#';
+  nav.append(home);
+  // Alphabetical order
+  const sorted = [...INDEX].sort((a, b) => a.name.localeCompare(b.name, LANG, { sensitivity: 'base' }));
+  for (const c of sorted) {
+    const a = el('a', 'tab' + (c.id === activeId ? ' on' : ''), c.name);
+    a.href = '#' + c.id;
+    nav.append(a);
+  }
+}
+function showHome() {
+  C = null;
+  document.getElementById('charview').hidden = true;
+  document.getElementById('homeview').hidden = false;
+  document.getElementById('cname').textContent = t('homeName');
+  document.getElementById('kanji').hidden = true;
+  const cards = document.getElementById('cards');
+  cards.innerHTML = '';
+  for (const c of [...INDEX].sort((a, b) => a.name.localeCompare(b.name, LANG, { sensitivity: 'base' }))) {
+    const a = el('a', 'card');
+    a.href = '#' + c.id;
+    if (c.kanji) a.append(el('span', 'ck', c.kanji));
+    a.append(el('span', null, c.name));
+    cards.append(a);
+  }
+  renderRows('hdrive', COMMON_DRIVE);
+  renderRows('hmech', COMMON_MECHANICS);
+}function showError(msg) {
+  const e = document.getElementById('loaderr');
+  e.textContent = msg || '';
+  e.hidden = !msg;
+}
+async function showCharacter(id) {
+  const req = ++REQ;
+  renderTabs(id);
+  if (id === 'home') { showError(''); showHome(); window.scrollTo(0, 0); return; }
+  try {
+    if (!CHARACTERS[id]) CHARACTERS[id] = await loadJson(`data/${id}.json`);
+  } catch (err) {
+    if (req === REQ) showError(t('errChar')(id, err.message) + t('hint'));
+    return;
+  }
+  if (req !== REQ) return; // a newer selection superseded this one
+  showError('');
+  document.getElementById('charview').hidden = false;
+  document.getElementById('homeview').hidden = true;
+  useCharacter(id);
+  // Name and kanji have a single source: data/characters.json (also used by the tabs and the home page)
+  const entry = INDEX.find(c => c.id === id);
+  document.getElementById('cname').textContent = entry.name;
+  const k = document.getElementById('kanji');
+  k.textContent = entry.kanji || '';
+  k.hidden = !entry.kanji;
+  renderRows('uniques', C.uniques || []);
+  renderRows('specials', C.specials || []);
+  renderRows('system', C.throws || []);
+  renderRows('supers', C.supers || []);
+  renderCombos();
+}
+// Re-render everything in the current language (character data is already cached)
+function refresh() {
+  applyStatic();
+  renderLangSwitch();
+  renderLegend();
+  if (INDEX.length) showCharacter(currentId());
+}
+async function start() {
+  applyStatic();
+  renderLangSwitch();
+  try {
+    INDEX = await loadJson('data/characters.json');
+  } catch (err) {
+    showError(t('errList')(err.message) + t('hint'));
+    return;
+  }
+  renderLegend();
+  await showCharacter(currentId());
+  addEventListener('hashchange', () => showCharacter(currentId()));
+}
+if (typeof document !== 'undefined') {
+  start();
+} else if (typeof module !== 'undefined') {
+  module.exports = { unknownTokens, useCharacter, comboCost, CHARACTERS };
+}
+</script>
+</body>
+</html>

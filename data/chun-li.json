@@ -1,0 +1,186 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Sources: <b>GGRecon, 2 June 2023</b> and <b>Kakuchopurei, 19 May 2023</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-chun-li-moves-combos-backstory/\">GGRecon — How to play Chun-Li in Street Fighter 6</a> ; <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-chun-li-move-list-guide/\">Kakuchopurei — Chun-Li move list guide</a> (guide marked “work in progress”). Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Swift Thrust",
+      "i": "6MP / 4MP"
+    },
+    {
+      "n": "Hakkei",
+      "i": "4HP"
+    },
+    {
+      "n": "Water Lotus Fist",
+      "i": "3HP",
+      "note": "Overhead, cannot be blocked crouching.",
+      "note_fr": "Overhead, impossible à bloquer accroupi."
+    },
+    {
+      "n": "Yokusen Kick",
+      "i": "6HK"
+    },
+    {
+      "n": "Falling Crane",
+      "i": "3HK",
+      "note": "Overhead, switches sides (cross-up).",
+      "note_fr": "Overhead, change de côté (cross-up)."
+    },
+    {
+      "n": "Yoso Kick",
+      "air": true,
+      "i": "j.2MK",
+      "note": "Up to three times in a row.",
+      "note_fr": "Jusqu’à trois fois de suite."
+    },
+    {
+      "n": "Wall Jump",
+      "air": true,
+      "i": "j.9 / j.7",
+      "note": "Near a wall.",
+      "note_fr": "Près d’un mur."
+    },
+    {
+      "n": "Soaring Eagle Punches",
+      "air": true,
+      "i": "j.HP > HP"
+    }
+  ],
+  "specials": [
+    {
+      "n": "Kikoken",
+      "od": true,
+      "i": "[4]6P",
+      "note": "Charge back: confirmed by the game's command list.",
+      "note_fr": "À charger en arrière : confirmé par la liste de commandes du jeu."
+    },
+    {
+      "n": "Hundred Lightning Kicks",
+      "od": true,
+      "i": "236K"
+    },
+    {
+      "n": "Lightning Kick Barrage",
+      "sub": true,
+      "i": "KK",
+      "note": "After an OD Hundred Lightning Kicks (game's command list).",
+      "note_fr": "Après un Hundred Lightning Kicks OD (liste de commandes du jeu)."
+    },
+    {
+      "n": "Hundred Lightning Kicks (aérien)",
+      "od": true,
+      "air": true,
+      "i": "j.236K",
+      "note": "During a neutral or forward jump (game's command list).",
+      "note_fr": "Pendant un saut neutre ou en avant (liste de commandes du jeu)."
+    },
+    {
+      "n": "Spinning Bird Kick",
+      "od": true,
+      "i": "[2]8K",
+      "note": "Charge down: confirmed by the game's command list.",
+      "note_fr": "À charger vers le bas : confirmé par la liste de commandes du jeu."
+    },
+    {
+      "n": "Hazanshu",
+      "od": true,
+      "i": "214K",
+      "note": "Useful against projectiles (Kakuchopurei).",
+      "note_fr": "Utile contre les projectiles (Kakuchopurei)."
+    },
+    {
+      "n": "Tensho Kicks",
+      "od": true,
+      "i": "22K",
+      "note": "Main anti-air (Kakuchopurei).",
+      "note_fr": "Anti-air principal (Kakuchopurei)."
+    },
+    {
+      "n": "Serenity Stream",
+      "i": "214P",
+      "note": "Hold down to stay in the stance (GGRecon).",
+      "note_fr": "Maintenir bas pour rester en posture (GGRecon)."
+    },
+    {
+      "n": "Orchid Palm",
+      "sub": true,
+      "i": "LP"
+    },
+    {
+      "n": "Snake Strike",
+      "sub": true,
+      "i": "MP"
+    },
+    {
+      "n": "Lotus Fist",
+      "sub": true,
+      "i": "HP",
+      "note": "2-hit overhead, cannot be blocked crouching (Kakuchopurei).",
+      "note_fr": "Overhead en 2 coups, impossible à bloquer accroupi (Kakuchopurei)."
+    },
+    {
+      "n": "Forward Strike",
+      "sub": true,
+      "i": "LK"
+    },
+    {
+      "n": "Senpu Kick",
+      "sub": true,
+      "i": "MK"
+    },
+    {
+      "n": "Tenku Kick",
+      "sub": true,
+      "i": "HK",
+      "note": "Jump-cancelable on hit (Kakuchopurei).",
+      "note_fr": "Annulable en saut au touché (Kakuchopurei)."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Kikosho",
+      "lvl": "SA1",
+      "i": "236236P",
+      "note": "Kakuchopurei adds 236236K as a variant, which contradicts Hoyoku-sen: not retained.",
+      "note_fr": "Kakuchopurei ajoute 236236K comme variante, ce qui contredit Hoyoku-sen : non retenu."
+    },
+    {
+      "n": "Kikosho (aérien)",
+      "lvl": "SA1",
+      "air": true,
+      "i": "j.236236P"
+    },
+    {
+      "n": "Hoyoku-sen",
+      "lvl": "SA2",
+      "i": "236236K"
+    },
+    {
+      "n": "Soten Ranka",
+      "lvl": "SA3",
+      "i": "214214K",
+      "note": "Critical Art according to GGRecon, with no health condition specified.",
+      "note_fr": "Critical Art selon GGRecon, sans condition de vie précisée."
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Sources : <b>GGRecon, 2 juin 2023</b> et <b>Kakuchopurei, 19 mai 2023</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-chun-li-moves-combos-backstory/\">GGRecon — How to play Chun-Li in Street Fighter 6</a> ; <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-chun-li-move-list-guide/\">Kakuchopurei — Chun-Li move list guide</a> (guide indiqué « en cours de rédaction »). Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

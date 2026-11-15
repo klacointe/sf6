@@ -1,0 +1,11 @@
+# Local development: docker compose up, then open http://localhost:8080/
+# The whole folder is mounted read-only (not single files: editors that save through a temporary
+# file, or tools that replace a directory, would leave the container with the old version).
+services:
+  site:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/usr/share/nginx/html:ro
+      - ./nginx.dev.conf:/etc/nginx/conf.d/default.conf:ro

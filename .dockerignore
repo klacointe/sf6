@@ -1,0 +1,8 @@
+.git
+.gitignore
+Dockerfile
+.dockerignore
+README.md
+compose.yaml
+nginx.dev.conf
+.env

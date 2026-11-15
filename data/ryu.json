@@ -1,0 +1,117 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon, 2 June 2023</b> (to be confirmed in game)",
+  "sources": "Source: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-ryu-character-guide\">GGRecon — Here’s how you play Ryu in Street Fighter 6</a> (Classic controls). Article predates the patches and is not confirmed by in-game screenshots. The Super Arts order (SA1 to SA3) follows a summary of the Red Bull guide. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Collarbone Breaker",
+      "i": "6MP"
+    },
+    {
+      "n": "Solar Plexus Strike",
+      "i": "6HP"
+    },
+    {
+      "n": "Short Uppercut",
+      "i": "4HP"
+    },
+    {
+      "n": "Axe Kick",
+      "i": "4HK"
+    },
+    {
+      "n": "Whirlwind Kick",
+      "i": "6HK"
+    },
+    {
+      "n": "High Double Strike",
+      "i": "HP > HK",
+      "note": "Target combo. The source writes \"Heavy Punch + Heavy Kick\": read as a button sequence, to be confirmed.",
+      "note_fr": "Target combo. La source écrit « Heavy Punch + Heavy Kick » : lu comme une suite de boutons, à confirmer."
+    },
+    {
+      "n": "Fuwa Triple Strike",
+      "i": "MP > LK > HK",
+      "note": "Target combo. The source writes \"Medium Punch + Light Kick + Heavy Kick\": read as a button sequence, to be confirmed.",
+      "note_fr": "Target combo. La source écrit « Medium Punch + Light Kick + Heavy Kick » : lu comme une suite de boutons, à confirmer."
+    }
+  ],
+  "specials": [
+    {
+      "n": "Hadoken",
+      "od": true,
+      "i": "236P"
+    },
+    {
+      "n": "Shoryuken",
+      "od": true,
+      "i": "623P"
+    },
+    {
+      "n": "Tatsumaki Senpu-kyaku",
+      "od": true,
+      "i": "214K"
+    },
+    {
+      "n": "Tatsumaki (aérien)",
+      "od": true,
+      "air": true,
+      "i": "j.214K",
+      "note": "While jumping forward.",
+      "note_fr": "En saut avant."
+    },
+    {
+      "n": "Hashogeki",
+      "od": true,
+      "i": "214P"
+    },
+    {
+      "n": "High Blade Kick",
+      "i": "236",
+      "note": "Button not specified by the source.",
+      "note_fr": "Bouton non précisé par la source."
+    },
+    {
+      "n": "Denjin Charge",
+      "i": "22P",
+      "note": "Input to be confirmed: the source writes \"Down, Down + Punch\".",
+      "note_fr": "Manipulation à confirmer : la source écrit « Down, Down + Punch »."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Shinku Hadoken",
+      "lvl": "SA1",
+      "i": "236236P"
+    },
+    {
+      "n": "Shin Hashogeki",
+      "lvl": "SA2",
+      "i": "214214P"
+    },
+    {
+      "n": "Shin Shoryuken",
+      "lvl": "SA3",
+      "i": "236236K"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon, 2 juin 2023</b> (à confirmer sur le jeu)",
+  "sources_fr": "Source : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-ryu-character-guide\">GGRecon — Here’s how you play Ryu in Street Fighter 6</a> (contrôles Classic). Article antérieur aux patchs, non confirmé par des captures du jeu. L’ordre des Super Arts (SA1 à SA3) suit un résumé du guide Red Bull. Épreuves de combo : à venir."
+}

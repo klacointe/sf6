@@ -1,0 +1,147 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>RealSport101, 9 August 2023 (updated 14 August 2023)</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://realsport101.com/street-fighter/street-fighter-6-rashid-guide-best-combos-move-list-and-more\">RealSport101 - Street Fighter 6 Rashid Guide: Best combos, move list, and more</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Flapping Sun",
+      "i": "6MP"
+    },
+    {
+      "n": "Beak Assault",
+      "i": "6HP"
+    },
+    {
+      "n": "Crescent Kick",
+      "i": "6HK"
+    },
+    {
+      "n": "Rising Kick",
+      "i": "MP > HK"
+    },
+    {
+      "n": "Run",
+      "i": "6 [hold]",
+      "note": "Run: the source lists forward + hold forward.",
+      "note_fr": "Course : la source indique avant + maintenir avant."
+    },
+    {
+      "n": "Backup",
+      "i": "6P",
+      "note": "During the Run, with any punch.",
+      "note_fr": "Pendant la course (Run), avec n'importe quel poing."
+    },
+    {
+      "n": "Tempest Move",
+      "i": "6K",
+      "note": "During the Run, with any kick.",
+      "note_fr": "Pendant la course (Run), avec n'importe quel pied."
+    },
+    {
+      "n": "Side Flip",
+      "i": "6K",
+      "note": "The source lists forward + any kick, twice (x2): unclear input, best reading kept.",
+      "note_fr": "La source indique avant + n'importe quel pied, deux fois (x2) : entrée peu claire, meilleure lecture conservée."
+    },
+    {
+      "n": "Blitz Strike",
+      "i": "j.2HP",
+      "note": "In a forward jump, down + HP.",
+      "note_fr": "En saut avant, bas + HP."
+    },
+    {
+      "n": "Aerial Shot",
+      "i": "j.8HK",
+      "note": "In a neutral jump, up + HK.",
+      "note_fr": "En saut neutre, haut + HK."
+    }
+  ],
+  "specials": [
+    {
+      "n": "Spinning Mixer",
+      "i": "236P"
+    },
+    {
+      "n": "Whirlwind Shot",
+      "i": "236K"
+    },
+    {
+      "n": "Eagle Spike",
+      "i": "214K"
+    },
+    {
+      "n": "Arabian Cyclone",
+      "i": "214P"
+    },
+    {
+      "n": "Wing Stroke",
+      "i": "214P > 4K",
+      "sub": true,
+      "note": "During Arabian Cyclone.",
+      "note_fr": "Pendant Arabian Cyclone."
+    },
+    {
+      "n": "Rolling Assault",
+      "i": "214P > 6K",
+      "sub": true,
+      "note": "During Arabian Cyclone.",
+      "note_fr": "Pendant Arabian Cyclone."
+    },
+    {
+      "n": "Nail Assault",
+      "i": "214P > 6K > K",
+      "sub": true,
+      "note": "During Rolling Assault, any kick.",
+      "note_fr": "Pendant Rolling Assault, n'importe quel pied."
+    },
+    {
+      "n": "Arabian Skyhigh",
+      "i": "j.214K",
+      "air": true,
+      "note": "While jumping forward.",
+      "note_fr": "En saut avant."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Super Rashid Kick",
+      "lvl": "SA1",
+      "i": "236236K",
+      "note": "SA1 level according to GamesHub (cost 1 gauge); the main source does not give levels.",
+      "note_fr": "Niveau SA1 d'après GamesHub (coût 1 jauge) ; la source principale ne donne pas les niveaux."
+    },
+    {
+      "n": "Ysaar",
+      "lvl": "SA2",
+      "i": "214214K",
+      "note": "SA2 level according to Xbox Hub; the main source does not give levels.",
+      "note_fr": "Niveau SA2 d'après Xbox Hub ; la source principale ne donne pas les niveaux."
+    },
+    {
+      "n": "Altair",
+      "lvl": "SA3",
+      "i": "236236P",
+      "note": "SA3 level inferred by elimination (not stated by a source).",
+      "note_fr": "Niveau SA3 déduit par élimination (non indiqué par une source)."
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>RealSport101, 9 août 2023 (maj 14 août 2023)</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://realsport101.com/street-fighter/street-fighter-6-rashid-guide-best-combos-move-list-and-more\">RealSport101 - Street Fighter 6 Rashid Guide: Best combos, move list, and more</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

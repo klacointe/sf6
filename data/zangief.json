@@ -1,0 +1,131 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon (4 June 2023) and Kakuchopurei (22 May 2023)</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-zangief-character-guide/\">GGRecon, Zangief (4 June 2023)</a> ; <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-zangief-move-list-guide/\">Kakuchopurei, Zangief (22 May 2023)</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Hellstabz",
+      "i": "3MP"
+    },
+    {
+      "n": "Knee Hammer",
+      "i": "6MK",
+      "note": "Kakuchopurei: Knee Strike.",
+      "note_fr": "Kakuchopurei : Knee Strike."
+    },
+    {
+      "n": "Headbutt",
+      "i": "6HP"
+    },
+    {
+      "n": "Cyclone Wheel Kick",
+      "i": "6HK"
+    },
+    {
+      "n": "Smetana Dropkick",
+      "i": "3HK",
+      "note": "Kakuchopurei: Stemana Dropkick.",
+      "note_fr": "Kakuchopurei : Stemana Dropkick."
+    },
+    {
+      "n": "Flying Body Press",
+      "i": "j.2HP"
+    },
+    {
+      "n": "Flying Headbutt",
+      "i": "j.8HP"
+    },
+    {
+      "n": "Machine Gun Chops",
+      "i": "MP > MP > MP",
+      "note": "Target combo.",
+      "note_fr": "Enchaînement cible."
+    },
+    {
+      "n": "Power Stomps",
+      "i": "22MK > MK > MK",
+      "note": "Opener 22MK then MK, MK.",
+      "note_fr": "Ouverture 22MK puis MK, MK."
+    }
+  ],
+  "specials": [
+    {
+      "n": "Double Lariat",
+      "i": "PP",
+      "note": "Anti-air and combo ender.",
+      "note_fr": "Anti-aérien et fin de combo."
+    },
+    {
+      "n": "Screw Piledriver",
+      "i": "412369P",
+      "od": true,
+      "note": "360-degree rotation (shortcut 412369P according to Kakuchopurei). Command grab.",
+      "note_fr": "Rotation à 360 degrés (raccourci 412369P selon Kakuchopurei). Prise de commande."
+    },
+    {
+      "n": "Borscht Dynamite",
+      "i": "412369K",
+      "note": "Air command grab. Sources disagree: GGRecon lists Punch, Kakuchopurei lists Kick; Kick used.",
+      "note_fr": "Prise aérienne de commande. Désaccord : GGRecon indique Punch, Kakuchopurei Kick ; Kick retenu."
+    },
+    {
+      "n": "Russian Suplex",
+      "i": "63214K",
+      "od": true,
+      "note": "Close-range command grab.",
+      "note_fr": "Prise de commande de près."
+    },
+    {
+      "n": "Siberian Express",
+      "i": "63214K",
+      "note": "Same input as Russian Suplex, used from far away (GGRecon only).",
+      "note_fr": "Même entrée que Russian Suplex, utilisée de loin (GGRecon uniquement)."
+    },
+    {
+      "n": "Tundra Storm",
+      "i": "22HK"
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Aerial Russian Slam",
+      "lvl": "SA1",
+      "i": "236236K",
+      "note": "GGRecon gives the same input as Cyclone Lariat (probably an error); Kakuchopurei used.",
+      "note_fr": "GGRecon donne la même entrée que Cyclone Lariat (probable erreur) ; Kakuchopurei utilisé."
+    },
+    {
+      "n": "Cyclone Lariat",
+      "lvl": "SA2",
+      "i": "236236P",
+      "note": "GGRecon gives 236236K (probably an error); Kakuchopurei used.",
+      "note_fr": "GGRecon donne 236236K (probable erreur) ; Kakuchopurei utilisé."
+    },
+    {
+      "n": "Bolshoi Storm Buster",
+      "lvl": "SA3",
+      "i": "412369412369P",
+      "note": "Two full rotations (720) + P, at close range. Numeric notation inferred from the source's 360 notation.",
+      "note_fr": "Deux rotations complètes (720) + P, de près. Écriture en chiffres déduite de la notation 360 de la source."
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon (4 juin 2023) et Kakuchopurei (22 mai 2023)</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-zangief-character-guide/\">GGRecon, Zangief (4 juin 2023)</a> ; <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-zangief-move-list-guide/\">Kakuchopurei, Zangief (22 mai 2023)</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

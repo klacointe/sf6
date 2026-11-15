@@ -1,0 +1,202 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon (2 June 2023) and Kakuchopurei (19 May 2023)</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://www.ggrecon.com/guides/street-fighter-6-kimberly-moves-combos-backstory/\">GGRecon, How to play Kimberly (2 June 2023)</a>, <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-kimberly-move-list-guide\">Kakuchopurei, Kimberly Move List &amp; Guide (19 May 2023)</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Water Slicer Slide",
+      "i": "3MK",
+      "note": "Kakuchopurei: 3MK; GGRecon: down/forward + MK. Low slide.",
+      "note_fr": "Kakuchopurei : 3MK ; GGRecon : bas/avant + MK. Glissade basse."
+    },
+    {
+      "n": "Windmill Kick",
+      "i": "4MK",
+      "note": "Kakuchopurei: 4MK; GGRecon: back + HK. Overhead.",
+      "note_fr": "Kakuchopurei : 4MK ; GGRecon : arrière + HK. Overhead."
+    },
+    {
+      "n": "Hisen Kick",
+      "i": "6HP",
+      "note": "Kakuchopurei: 6HP; GGRecon: forward + HK (sources disagree).",
+      "note_fr": "Kakuchopurei : 6HP ; GGRecon : avant + HK (désaccord)."
+    },
+    {
+      "n": "Step Up",
+      "i": "7 / 8 / 9",
+      "note": "Hisen Kick follow-up: jump off the opponent (Kakuchopurei).",
+      "sub": true,
+      "note_fr": "Suite de Hisen Kick : saut depuis l'adversaire (Kakuchopurei)."
+    },
+    {
+      "n": "Elbow Drop",
+      "i": "j.2MP",
+      "note": "At the apex of a forward jump.",
+      "note_fr": "Au sommet d'un saut avant."
+    },
+    {
+      "n": "Bushin Tiger Fangs",
+      "i": "MP > HP",
+      "note": "Kakuchopurei: MP > HP; GGRecon: MP+HP (sources disagree).",
+      "note_fr": "Kakuchopurei : MP > HP ; GGRecon : MP+HP (désaccord)."
+    },
+    {
+      "n": "Bushin Prism Strikes",
+      "i": "LP > MP > HP > HK"
+    },
+    {
+      "n": "Bushin Hellchain",
+      "i": "LP > MP > 2HP > HK"
+    },
+    {
+      "n": "Bushin Hellchain Throw",
+      "i": "LP > MP > 2HP > 2HK"
+    }
+  ],
+  "specials": [
+    {
+      "n": "Bushin Senpukyaku",
+      "i": "214K",
+      "note": "Usable in the air (j.214K).",
+      "note_fr": "Utilisable en l'air (j.214K)."
+    },
+    {
+      "n": "Sprint",
+      "i": "236K",
+      "note": "Kakuchopurei and GGRecon: 236K; GamePur (not consulted) gives a different input.",
+      "note_fr": "Kakuchopurei et GGRecon : 236K ; GamePur (non consulté) donne une autre entrée."
+    },
+    {
+      "n": "Emergency Stop",
+      "i": "P",
+      "note": "During Sprint.",
+      "sub": true,
+      "note_fr": "Pendant Sprint."
+    },
+    {
+      "n": "Torso Cleaver",
+      "i": "LK",
+      "note": "During Sprint.",
+      "sub": true,
+      "note_fr": "Pendant Sprint."
+    },
+    {
+      "n": "Shadow Slide",
+      "i": "MK",
+      "note": "During Sprint.",
+      "sub": true,
+      "note_fr": "Pendant Sprint."
+    },
+    {
+      "n": "Neck Hunter",
+      "i": "HK",
+      "note": "During Sprint.",
+      "sub": true,
+      "note_fr": "Pendant Sprint."
+    },
+    {
+      "n": "Arc Step",
+      "i": "6",
+      "note": "Triggers automatically on contact, no input of its own (6 is approximate).",
+      "sub": true,
+      "note_fr": "Se déclenche automatiquement au contact, pas d'entrée propre (6 approximatif)."
+    },
+    {
+      "n": "Bushin Izuna Otoshi",
+      "i": "P",
+      "note": "During Arc Step.",
+      "sub": true,
+      "note_fr": "Pendant Arc Step."
+    },
+    {
+      "n": "Bushin Hokjin Kick",
+      "i": "K",
+      "note": "During Arc Step. Name spelled Hoji Kick by GGRecon.",
+      "sub": true,
+      "note_fr": "Pendant Arc Step. Nom écrit Hoji Kick chez GGRecon."
+    },
+    {
+      "n": "Vagabond Edge",
+      "i": "236P",
+      "note": "Both sources: 236P.",
+      "od": true,
+      "note_fr": "Les deux sources : 236P."
+    },
+    {
+      "n": "Swagger Step",
+      "i": "214P",
+      "note": "Listed only by GGRecon, same input as Hidden Variable; probably a duplicate.",
+      "note_fr": "Listé seulement par GGRecon, même entrée que Hidden Variable ; probable doublon."
+    },
+    {
+      "n": "Hidden Variable",
+      "i": "214P",
+      "note": "GGRecon: 214P; Kakuchopurei: 214K+K (sources disagree).",
+      "note_fr": "GGRecon : 214P ; Kakuchopurei : 214K+K (désaccord)."
+    },
+    {
+      "n": "Genius at Play",
+      "i": "22P"
+    },
+    {
+      "n": "Shuriken Bomb",
+      "i": "22P",
+      "note": "Requires at least 1 Shuriken Bomb stock.",
+      "sub": true,
+      "note_fr": "Nécessite au moins 1 stock de Shuriken Bomb."
+    },
+    {
+      "n": "Shuriken Bomb Spread",
+      "i": "22PP",
+      "note": "Requires at least 2 stocks (two punch buttons).",
+      "sub": true,
+      "note_fr": "Nécessite au moins 2 stocks (deux boutons de poing)."
+    },
+    {
+      "n": "Nue Twister",
+      "i": "j.236P",
+      "note": "GGRecon: 236P in the air; Kakuchopurei: 234P in the air (sources disagree, 236P used).",
+      "note_fr": "GGRecon : 236P en l'air ; Kakuchopurei : 234P en l'air (désaccord, 236P retenu)."
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Bushin Beats",
+      "i": "236236K",
+      "note": "Adds a Shuriken Bomb if stocks are available.",
+      "lvl": "SA1",
+      "note_fr": "Ajoute une Shuriken Bomb si des stocks sont disponibles."
+    },
+    {
+      "n": "Bushin Scramble",
+      "i": "214214P",
+      "note": "Usable in the air.",
+      "lvl": "SA2",
+      "note_fr": "Utilisable en l'air."
+    },
+    {
+      "n": "Bushin Ninjastar Cypher",
+      "i": "236236P",
+      "lvl": "SA3"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon (2 juin 2023) et Kakuchopurei (19 mai 2023)</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://www.ggrecon.com/guides/street-fighter-6-kimberly-moves-combos-backstory/\">GGRecon, How to play Kimberly (2 juin 2023)</a>, <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-kimberly-move-list-guide\">Kakuchopurei, Kimberly Move List &amp; Guide (19 mai 2023)</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

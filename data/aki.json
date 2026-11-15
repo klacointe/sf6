@@ -1,0 +1,129 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>Altar of Gaming, 18 Jul. 2026 ; Game Rant, 4 Oct. 2023</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://altarofgaming.com/character/a-k-i/street-fighter-6/moves/\">Altar of Gaming - A.K.I. Moves &amp; Combos</a> · <a href=\"https://gamerant.com/street-fighter-6-how-to-play-aki-move-list-combos-tips-more/\">Game Rant - How to Play A.K.I.</a> · <a href=\"https://eventhubs.com/moves/sf6/aki/\">EventHubs - A.K.I. moves</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Pu Lao",
+      "i": "3MP",
+      "note": "Source icon reading",
+      "note_fr": "Lecture des icônes de la source"
+    },
+    {
+      "n": "Chi Wen",
+      "i": "6HP"
+    },
+    {
+      "n": "Qiu Niu",
+      "i": "6HK"
+    },
+    {
+      "n": "Gong Fu",
+      "i": "j.2HP",
+      "note": "During a forward jump; icon reading",
+      "note_fr": "Pendant un saut avant ; lecture des icônes"
+    },
+    {
+      "n": "Hun Dun",
+      "i": "LP > LP"
+    },
+    {
+      "n": "Qiong Qi",
+      "i": "HP > HP"
+    }
+  ],
+  "specials": [
+    {
+      "n": "Nightshade Pulse",
+      "i": "214LP",
+      "od": true
+    },
+    {
+      "n": "Nightshade Chaser",
+      "i": "6P",
+      "note": "During Nightshade Pulse; a Prima Games search snippet gives 214K, unconfirmed",
+      "sub": true,
+      "note_fr": "Pendant Nightshade Pulse ; un extrait de recherche Prima Games donne 214K, non confirmé"
+    },
+    {
+      "n": "Orchid Spring",
+      "i": "214MP"
+    },
+    {
+      "n": "Toxic Wreath",
+      "i": "214HP"
+    },
+    {
+      "n": "Serpent Lash",
+      "i": "236P",
+      "od": true
+    },
+    {
+      "n": "Cruel Fate",
+      "i": "214K",
+      "od": true
+    },
+    {
+      "n": "Snake Step",
+      "i": "236K",
+      "od": true
+    },
+    {
+      "n": "Sinister Slide",
+      "i": "2PP"
+    },
+    {
+      "n": "Venomous Fang",
+      "i": "P",
+      "sub": true
+    },
+    {
+      "n": "Heel Strike",
+      "i": "K",
+      "sub": true
+    },
+    {
+      "n": "Entrapment",
+      "i": "LP+LK",
+      "note": "Up close, during Sinister Slide",
+      "sub": true,
+      "note_fr": "De près, pendant Sinister Slide"
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Deadly Implication",
+      "i": "236236K",
+      "lvl": "SA1"
+    },
+    {
+      "n": "Tainted Talons",
+      "i": "214214P",
+      "lvl": "SA2"
+    },
+    {
+      "n": "Claws of Ya Zi",
+      "i": "236236P",
+      "lvl": "SA3"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>Altar of Gaming, 18 juil. 2026 ; Game Rant, 4 oct. 2023</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://altarofgaming.com/character/a-k-i/street-fighter-6/moves/\">Altar of Gaming - A.K.I. Moves &amp; Combos</a> · <a href=\"https://gamerant.com/street-fighter-6-how-to-play-aki-move-list-combos-tips-more/\">Game Rant - How to Play A.K.I.</a> · <a href=\"https://eventhubs.com/moves/sf6/aki/\">EventHubs - A.K.I. moves</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

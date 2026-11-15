@@ -1,0 +1,121 @@
+[
+  {
+    "id": "akuma",
+    "name": "Akuma",
+    "kanji": "天",
+    "fav": true
+  },
+  {
+    "id": "ken",
+    "name": "Ken",
+    "kanji": "拳",
+    "fav": true
+  },
+  {
+    "id": "ryu",
+    "name": "Ryu",
+    "kanji": "龍",
+    "fav": true
+  },
+  {
+    "id": "chun-li",
+    "name": "Chun-Li",
+    "kanji": "春麗",
+    "fav": true
+  },
+  {
+    "id": "luke",
+    "name": "Luke",
+    "kanji": "鷹"
+  },
+  {
+    "id": "jamie",
+    "name": "Jamie",
+    "kanji": "酔"
+  },
+  {
+    "id": "manon",
+    "name": "Manon",
+    "kanji": "舞"
+  },
+  {
+    "id": "kimberly",
+    "name": "Kimberly",
+    "kanji": "忍"
+  },
+  {
+    "id": "marisa",
+    "name": "Marisa",
+    "kanji": "盾"
+  },
+  {
+    "id": "lily",
+    "name": "Lily",
+    "kanji": "風"
+  },
+  {
+    "id": "jp",
+    "name": "JP",
+    "kanji": "謀"
+  },
+  {
+    "id": "juri",
+    "name": "Juri",
+    "kanji": "毒"
+  },
+  {
+    "id": "dee-jay",
+    "name": "Dee Jay",
+    "kanji": "音"
+  },
+  {
+    "id": "cammy",
+    "name": "Cammy",
+    "kanji": "蒼"
+  },
+  {
+    "id": "e-honda",
+    "name": "E. Honda",
+    "kanji": "相"
+  },
+  {
+    "id": "blanka",
+    "name": "Blanka",
+    "kanji": "獣"
+  },
+  {
+    "id": "guile",
+    "name": "Guile",
+    "kanji": "空"
+  },
+  {
+    "id": "zangief",
+    "name": "Zangief",
+    "kanji": "熊"
+  },
+  {
+    "id": "dhalsim",
+    "name": "Dhalsim",
+    "kanji": "瞑"
+  },
+  {
+    "id": "rashid",
+    "name": "Rashid",
+    "kanji": "嵐"
+  },
+  {
+    "id": "aki",
+    "name": "A.K.I.",
+    "kanji": "蛇"
+  },
+  {
+    "id": "ed",
+    "name": "Ed",
+    "kanji": "念"
+  },
+  {
+    "id": "sagat",
+    "name": "Sagat",
+    "kanji": "虎"
+  }
+]

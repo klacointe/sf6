@@ -1,0 +1,143 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon 2 June 2023 and Kakuchopurei 15 May 2023</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://ggrecon.com/guides/street-fighter-6-blanka-character-guide\">GGRecon (2 June 2023)</a>, <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-blanka-move-list-guide/\">Kakuchopurei (15 May 2023)</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Rock Crusher",
+      "i": "6MP",
+      "note": "Overhead according to Kakuchopurei; to be verified: a search result on the SuperCombo wiki suggests this normal might not exist",
+      "note_fr": "Overhead selon Kakuchopurei ; à vérifier : un résultat de recherche sur le wiki SuperCombo suggère que cette normale pourrait ne pas exister"
+    },
+    {
+      "n": "Double Knee Bombs",
+      "i": "6MK"
+    },
+    {
+      "n": "Wild Edge",
+      "i": "4MK"
+    },
+    {
+      "n": "Wild Nail",
+      "i": "6HP"
+    },
+    {
+      "n": "Amazon River Run",
+      "i": "3HP",
+      "note": "Slide",
+      "note_fr": "Glissade"
+    },
+    {
+      "n": "Coward Crouch",
+      "i": "2PP",
+      "note": "GGRecon: Down + any two punch buttons",
+      "note_fr": "GGRecon : Bas + deux boutons de poing quelconques"
+    },
+    {
+      "n": "Wild Lift",
+      "i": "2PP > P",
+      "sub": true,
+      "note": "Follow-up to Coward Crouch with a punch (GGRecon)",
+      "note_fr": "Suite de Coward Crouch avec un poing (GGRecon)"
+    },
+    {
+      "n": "Raid Jump",
+      "i": "2PP > K",
+      "sub": true,
+      "note": "Follow-up to Coward Crouch with a kick (GGRecon)",
+      "note_fr": "Suite de Coward Crouch avec un pied (GGRecon)"
+    },
+    {
+      "n": "Surprise Hop",
+      "i": "6KKK",
+      "note": "Forward or back + three kicks (GGRecon); Kakuchopurei: Surprise Forward Hop 6KKK, Surprise Back Hop 4KKK",
+      "note_fr": "Avant ou arrière + trois pieds (GGRecon) ; Kakuchopurei : Surprise Forward Hop 6KKK, Surprise Back Hop 4KKK"
+    },
+    {
+      "n": "Surprise Back Hop",
+      "i": "4KKK",
+      "note": "According to Kakuchopurei",
+      "note_fr": "Selon Kakuchopurei"
+    }
+  ],
+  "specials": [
+    {
+      "n": "Electric Thunder",
+      "i": "214P",
+      "note": "Holding P extends the duration (Kakuchopurei)",
+      "note_fr": "Maintenir P prolonge la durée (Kakuchopurei)"
+    },
+    {
+      "n": "Rolling Attack",
+      "i": "[4]6P"
+    },
+    {
+      "n": "Aerial Rolling Attack",
+      "i": "j.[4]6P",
+      "air": true,
+      "note": "Usable in the air according to both sources",
+      "note_fr": "Utilisable en l'air selon les deux sources"
+    },
+    {
+      "n": "Vertical Rolling Attack",
+      "i": "[2]8K"
+    },
+    {
+      "n": "Backstep Rolling Attack",
+      "i": "63214K"
+    },
+    {
+      "n": "Wild Hunt",
+      "i": "236K",
+      "note": "Command grab (Kakuchopurei)",
+      "note_fr": "Saisie de commande (Kakuchopurei)"
+    },
+    {
+      "n": "Blanka-chan Bomb",
+      "i": "22P"
+    },
+    {
+      "n": "Rolling Cannon",
+      "i": "P",
+      "sub": true,
+      "note": "During Lightning Beast, after a Rolling Attack: a direction then P; exact input not specified",
+      "note_fr": "Pendant Lightning Beast, après un Rolling Attack : une direction puis P ; entrée exacte non précisée"
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Shout of Earth",
+      "lvl": "SA1",
+      "i": "236236P"
+    },
+    {
+      "n": "Lightning Beast",
+      "lvl": "SA2",
+      "i": "214214P"
+    },
+    {
+      "n": "Ground Shave Cannonball",
+      "lvl": "SA3",
+      "i": "236236K"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon 02/06/2023 et Kakuchopurei 15/05/2023</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://ggrecon.com/guides/street-fighter-6-blanka-character-guide\">GGRecon (2 juin 2023)</a>, <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-blanka-move-list-guide/\">Kakuchopurei (15 mai 2023)</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}

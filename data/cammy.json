@@ -1,0 +1,125 @@
+{
+  "meta": "Special moves &amp; Super Arts<br>Source: <b>GGRecon 2 June 2023 and Kakuchopurei 17 May 2023</b> (to be confirmed in game)",
+  "sources": "Sources: <a href=\"https://ggrecon.com/guides/street-fighter-6-cammy-character-guide\">GGRecon (2 June 2023)</a>, <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-cammy-move-list-guide\">Kakuchopurei (17 May 2023)</a>. Articles predate the patches and are not confirmed by in-game screenshots. Combo trials: coming soon.",
+  "driveNames": {},
+  "uniques": [
+    {
+      "n": "Lift Uppercut",
+      "i": "4MP"
+    },
+    {
+      "n": "Delayed Ripper",
+      "i": "6HK"
+    },
+    {
+      "n": "Assault Blade",
+      "i": "4HK"
+    },
+    {
+      "n": "Lift Combination",
+      "i": "4MP > HK",
+      "note": "GGRecon: Back + MP + HK",
+      "note_fr": "GGRecon : Arrière + MP + HK"
+    },
+    {
+      "n": "Swing Combination",
+      "i": "HP > HK"
+    }
+  ],
+  "specials": [
+    {
+      "n": "Spiral Arrow",
+      "i": "236K"
+    },
+    {
+      "n": "Cannon Spike",
+      "i": "623K"
+    },
+    {
+      "n": "Quick Spin Knuckle",
+      "i": "214P"
+    },
+    {
+      "n": "Cannon Strike",
+      "i": "j.214K",
+      "air": true,
+      "note": "During a forward jump",
+      "note_fr": "Pendant un saut vers l'avant"
+    },
+    {
+      "n": "Hooligan Combination",
+      "i": "236P"
+    },
+    {
+      "n": "Razor's Edge Slicer",
+      "i": "236P",
+      "sub": true,
+      "note": "Name and slide according to Kakuchopurei, with no additional input; GGRecon instead names Reverse Edge (Down + K)",
+      "note_fr": "Nom et glissade selon Kakuchopurei, sans entrée supplémentaire ; GGRecon nomme plutôt Reverse Edge (Bas + K)"
+    },
+    {
+      "n": "Fatal Leg Twister",
+      "i": "236P > LP > LK",
+      "sub": true,
+      "note": "According to GGRecon (LP, LK); Kakuchopurei describes LP LP as a throw on a standing opponent: sources disagree",
+      "note_fr": "Selon GGRecon (LP, LK) ; Kakuchopurei décrit LP LP comme une saisie sur adversaire debout : sources divergentes"
+    },
+    {
+      "n": "Silent Step",
+      "i": "236P > P",
+      "sub": true,
+      "note": "Feint according to Kakuchopurei",
+      "note_fr": "Feinte selon Kakuchopurei"
+    },
+    {
+      "n": "Reverse Edge",
+      "i": "236P > 2K",
+      "sub": true,
+      "note": "GGRecon: Down + K; Kakuchopurei: 2K, aerial overhead attack",
+      "note_fr": "GGRecon : Bas + K ; Kakuchopurei : 2K, attaque aérienne en overhead"
+    },
+    {
+      "n": "Cannon Strike",
+      "i": "236P > K",
+      "sub": true
+    }
+  ],
+  "throws": [
+    {
+      "n": "Forward throw",
+      "i": "LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection avant"
+    },
+    {
+      "n": "Back throw",
+      "i": "4LP+LK",
+      "note": "Command shared by all characters.",
+      "note_fr": "Commande commune à tous les personnages.",
+      "n_fr": "Projection arrière"
+    }
+  ],
+  "supers": [
+    {
+      "n": "Spin Drive Smasher",
+      "lvl": "SA1",
+      "i": "236236K"
+    },
+    {
+      "n": "Killer Bee Spin",
+      "lvl": "SA2",
+      "i": "214214K",
+      "note": "GGRecon also lists an aerial version (Aerial Killer Bee Spin, same input during a forward jump)",
+      "note_fr": "GGRecon liste aussi une version aérienne (Aerial Killer Bee Spin, même entrée pendant un saut vers l'avant)"
+    },
+    {
+      "n": "Delta Red Assault",
+      "lvl": "SA3",
+      "i": "236236P"
+    }
+  ],
+  "combos": [],
+  "meta_fr": "Coups spéciaux &amp; Super Arts<br>Source : <b>GGRecon 02/06/2023 et Kakuchopurei 17/05/2023</b> (à confirmer sur le jeu)",
+  "sources_fr": "Sources : <a href=\"https://ggrecon.com/guides/street-fighter-6-cammy-character-guide\">GGRecon (2 juin 2023)</a>, <a href=\"https://www.kakuchopurei.com/2023/05/street-fighter-6-cammy-move-list-guide\">Kakuchopurei (17 mai 2023)</a>. Articles antérieurs aux patchs, non confirmés par des captures du jeu. Épreuves de combo : à venir."
+}
